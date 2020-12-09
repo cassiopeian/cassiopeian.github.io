@@ -28,20 +28,18 @@ p#mobile-nav-x {
     font-size: 2rem;
     text-transform: uppercase;
     color: rgb(41, 31, 87);
+    margin: 0;
 }
 p#menu-icon,
 p#mobile-nav-x {
     display: none;
 }
-p#mobile-nav-x {
-    font-size: 1.5rem;
-}
-li {
+li.nav-links {
     margin-left: .8rem;
     display: inline;
     list-style: none;
 }
-li a {
+li.nav-links a {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -56,7 +54,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .7rem 1.5rem;
+    padding: 1rem 2rem;
     background-color: rgba(248, 248, 255, .5);
     position: fixed;
     top: 0;
@@ -65,10 +63,8 @@ header {
 }
 section#hamburger {
     position: fixed;
-    top: 25px;
-    right: 25px;
+    right: 2rem;
     z-index: 5;
-    width: 2.6rem;
     cursor: pointer;
     display: none;
 }
@@ -76,7 +72,7 @@ nav {
     position: relative;
     z-index: 6;
 }
-.close-nav {
+div.close-nav {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -147,6 +143,46 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    section#hamburger {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        background-color: rgb(52, 139, 221);
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+    }
+    ul {
+        padding: 0;
+        margin-top: 30%;
+    }
+    li.nav-links a {
+        display: block;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0 auto 3rem;
+        padding: 0;
+        width: fit-content;
+    }
+    div.close-nav {
+        display: block;
+    }
+    p#menu-icon,
+    p#mobile-nav-x {
+        display: block;
+        cursor: pointer;
+    }
+    p#mobile-nav-x:hover {
+        transform: rotate(90deg);
+        color: ghostwhite;
+        transition-duration: 2s;
+    }
+}
 
 @media only screen and (max-width: 850px) {
     h1 {
