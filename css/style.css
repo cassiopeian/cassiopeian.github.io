@@ -254,7 +254,7 @@ a.view-code {
 footer {
     width: 100%;
     bottom: 0;
-    position: fixed;
+    position: relative;
 }
 #footer-box {
     margin: 20px 30px;
