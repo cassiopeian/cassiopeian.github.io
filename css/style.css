@@ -19,7 +19,7 @@ body {
 }
 
 /* 2. TEXT -------- */
-p#logo,
+h1,
 p#menu-icon,
 p#mobile-nav-x {
     font-family: 'Nunito', sans-serif;
@@ -47,9 +47,6 @@ li.nav-links a {
     text-decoration: none;
     color: rgb(41, 31, 87);
     cursor: pointer;
-}
-h1 {
-
 }
 #hero-tagline {
     font-family: 'Nunito', sans-serif;
