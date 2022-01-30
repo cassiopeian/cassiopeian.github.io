@@ -135,6 +135,7 @@ section#hero {
     border-radius: 5px;
     background-color: rgb(19, 16, 16);
     margin: .5rem;
+    cursor: default;
 }
 section#slant::before {
     content: '';
