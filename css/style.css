@@ -137,6 +137,12 @@ section#hero {
     margin: .5rem;
     cursor: default;
 }
+@media (hover:hover) {
+    .keys:hover {
+        color: rgb(245, 245, 245);
+        box-shadow: 0 0 5px 3px rgb(199, 199, 199);
+    }
+}
 section#slant::before {
     content: '';
     position: absolute;
