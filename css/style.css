@@ -34,16 +34,16 @@ p#menu-icon,
 p#mobile-nav-x {
     display: none;
 }
-li.nav-links {
+.nav-links {
     margin-left: .8rem;
     display: inline;
     list-style: none;
 }
-li.nav-links a {
+.nav-links a {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: rgb(41, 31, 87);
     cursor: pointer;
