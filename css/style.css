@@ -137,7 +137,7 @@ section#hero {
     width: 3.6rem;
     border-radius: 5px;
     background-color: rgb(19, 16, 16);
-    margin: .5rem;
+    margin: .4rem;
     cursor: default;
 }
 @media (hover:hover) {
