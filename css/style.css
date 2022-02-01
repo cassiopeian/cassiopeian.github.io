@@ -296,3 +296,15 @@ footer {
         transition-duration: 2s;
     }
 }
+
+@media only screen and (max-width: 415px) {
+
+    /* HEADER */
+
+    .keys {
+        font-size: .8rem;
+        height: 2rem;
+        width: 2rem;
+        margin: .2rem;
+    }
+}
