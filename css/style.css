@@ -295,6 +295,12 @@ footer {
         color: ghostwhite;
         transition-duration: 2s;
     }
+    .keys {
+        font-size: 1.3rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: .25rem;
+    }
 }
 
 @media only screen and (max-width: 415px) {
