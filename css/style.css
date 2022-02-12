@@ -70,7 +70,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: .5rem 2rem;
-    background-color: rgba(248, 248, 255, .5);
+    background-color: rgb(32, 30, 30);
     position: fixed;
     top: 0;
     width: 100%;
