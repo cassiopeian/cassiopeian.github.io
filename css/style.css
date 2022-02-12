@@ -115,7 +115,7 @@ div.close-nav {
     align-items: end;
 }
 #hero-wrapper {
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     width: 75%;
 }
 #keys-container {
