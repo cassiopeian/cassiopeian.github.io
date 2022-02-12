@@ -34,6 +34,9 @@ p#menu-icon,
 p#mobile-nav-x {
     display: none;
 }
+ul {
+    margin: 0;
+}
 .nav-links {
     margin-left: .8rem;
     display: inline;
@@ -45,7 +48,7 @@ p#mobile-nav-x {
     font-style: normal;
     font-size: 1.1rem;
     text-decoration: none;
-    color: rgb(41, 31, 87);
+    color: rgb(245, 245, 245);
     cursor: pointer;
 }
 #hero-tagline {
