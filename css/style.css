@@ -53,10 +53,14 @@ ul {
 }
 #hero-tagline {
     font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    font-size: 2rem;
-    text-align: center;
-    color: rgb(245, 245, 245);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(19, 16, 16);
+    background-image: radial-gradient(rgba(241, 231, 231, .75), rgba(233, 229, 229, .08));
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 .4rem;
+    margin: .5rem auto;
 }
 h2 {
     color: rgb(163, 112, 75);
