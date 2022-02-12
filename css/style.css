@@ -100,15 +100,15 @@ div.close-nav {
 }
 
 /* MAIN -------- */
-section#hero {
-    background-image: url('../images/IMG_1213.jpeg');
-    min-height: 500px;
+#hero {
+    background-image: url('../images/backgrounds/nacht.svg');
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: end;
 }
 #hero-wrapper {
     margin: 0 auto;
