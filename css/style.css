@@ -170,7 +170,7 @@ div#slant-text-container {
     margin: 2rem auto;
     max-width: 60%;
 }
-section#pattern {
+#pattern {
     background-image: url('../images/IMG_1157.jpeg');
     min-height: 250px;
     background-size: cover;
@@ -288,8 +288,12 @@ footer {
 
 @media only screen and (max-width: 415px) {
 
-    /* HEADER */
+    /* MAIN */
 
+    #hero,
+    #pattern {
+        background-attachment: scroll;
+    }
     .keys {
         font-size: .8rem;
         height: 2rem;
