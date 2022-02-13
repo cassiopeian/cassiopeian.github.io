@@ -306,6 +306,9 @@ footer {
         width: 2rem;
         margin: .2rem;
     }
+    #hero-tagline {
+        font-size: 1rem;
+    }
     #slant-text-container {
         max-width: unset;
     }
