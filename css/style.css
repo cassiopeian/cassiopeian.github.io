@@ -87,6 +87,9 @@ h1 {
     font-size: 1.5rem;
     color: rgb(245, 245, 245);
 }
+#menu-icon {
+    color: rgb(245, 245, 245);
+}
 section#hamburger {
     position: fixed;
     right: 2rem;
