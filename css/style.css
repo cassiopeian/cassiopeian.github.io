@@ -166,7 +166,7 @@ section#slant {
     box-sizing: border-box;
     padding: 30px;
 }
-div#slant-text-container {
+#slant-text-container {
     position: relative;
     z-index: 2;
     padding: 2rem;
@@ -302,5 +302,8 @@ footer {
         height: 2rem;
         width: 2rem;
         margin: .2rem;
+    }
+    #slant-text-container {
+        max-width: unset;
     }
 }
