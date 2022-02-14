@@ -27,12 +27,14 @@ p#mobile-nav-x {
     font-style: normal;
     font-size: 2rem;
     text-transform: uppercase;
-    color: rgb(41, 31, 87);
     margin: 0;
 }
 p#menu-icon,
 p#mobile-nav-x {
     display: none;
+}
+#mobile-nav-x {
+    color: rgb(41, 31, 87);
 }
 ul {
     margin: 0;
