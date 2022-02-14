@@ -12,6 +12,7 @@ html {
 }
 * {
     box-sizing: inherit;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
