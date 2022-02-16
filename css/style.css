@@ -207,10 +207,10 @@ div#projects-container {
     background-color: rgb(239, 239, 239);
     box-shadow: 10px 10px 6px 1px rgb(122, 135, 119);
 }
-div.dummy {
+.dummy {
     width: 300px;
     height: 150px;
-    background-image: radial-gradient(rgb(230, 63, 154), rgb(93, 91, 224));
+    background-image: radial-gradient(rgb(106, 149, 105), rgb(82, 108, 96));
 }
 div.card-text-container {
     width: 300px;
@@ -218,7 +218,7 @@ div.card-text-container {
 h3 {
     font-family: 'Nunito';
     text-transform: uppercase;
-    color: #da7872;
+    color: rgb(218, 120, 114);
     letter-spacing: .1rem;
 }
 .project-blurb {
