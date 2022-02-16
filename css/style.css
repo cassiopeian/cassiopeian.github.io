@@ -215,6 +215,12 @@ div.dummy {
 div.card-text-container {
     width: 300px;
 }
+h3 {
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    color: #da7872;
+    letter-spacing: .1rem;
+}
 .project-blurb {
     font-family: 'Nunito';
     color: rgb(56, 83, 106);
