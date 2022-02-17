@@ -181,14 +181,6 @@ section#slant {
     margin: 2rem auto;
     max-width: 60%;
 }
-#pattern {
-    background-image: url('../images/IMG_1157.jpeg');
-    min-height: 250px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 /* MAIN > PROJECTS -------- */
 #projects {
