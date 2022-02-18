@@ -8,3 +8,8 @@ $('.close-nav').on('click', function(){
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
 });
+
+// close the mobile nav, to view the projects section
+$('#see-projects').on('click', function() {
+    $('nav').animate({left: '100%'});
+});
