@@ -165,7 +165,7 @@ div.close-nav {
         box-shadow: 0 0 5px 3px rgb(199, 199, 199);
     }
 }
-section#slant {
+#about {
     position: relative;
     width: 100%;
     height: auto;
@@ -174,7 +174,7 @@ section#slant {
     box-sizing: border-box;
     padding: 30px;
 }
-#slant-text-container {
+#about-wrapper {
     position: relative;
     z-index: 2;
     padding: 2rem;
@@ -323,7 +323,7 @@ footer {
     #hero-tagline {
         font-size: 1rem;
     }
-    #slant-text-container {
+    #about-wrapper {
         max-width: unset;
     }
 }
