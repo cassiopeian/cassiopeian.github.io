@@ -91,9 +91,10 @@ header {
     width: 100%;
     z-index: 4;
 }
-h1 {
+h1 a {
     font-size: 1.5rem;
     color: rgb(245, 245, 245);
+    text-decoration: none;
 }
 #menu-icon {
     color: rgb(245, 245, 245);
