@@ -233,6 +233,13 @@ img.github-logo {
     padding-right: .5rem;
 }
 a.view-code {
+    font-family: 'Nunito';
+    font-weight: 900;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: rgb(73, 110, 165);
+    border-bottom: 1px solid;
     text-decoration: none;
 }
 
