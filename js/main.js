@@ -13,3 +13,18 @@ $(window).on('resize', function(){
 $('#see-about, #see-projects').on('click', function() {
     $('nav').animate({left: '100%'});
 });
+
+$(window).on('scroll', function() {
+    let about = $('#about');
+    let transparentZone = about.offset().top - $(window).scrollTop();
+    let vanishingPoint = $('#hero').height() * .75;
+
+    // if vanishingPoint is below transparentZone
+    if (transparentZone < vanishingPoint) {
+        // hide the contents of #hero-wrapper
+        $('#hero-wrapper').css('opacity', 0);
+    } else {
+        // reveal them
+        $('#hero-wrapper').css('opacity', 1);
+    }
+});
