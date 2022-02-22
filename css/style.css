@@ -210,8 +210,8 @@ div#projects-container {
     height: 175px;
     background-image: radial-gradient(rgb(106, 149, 105), rgb(82, 108, 96));
 }
-div.card-text-container {
-    width: 300px;
+.card-text-container {
+    width: 340px;
 }
 h3 {
     font-family: 'Nunito';
