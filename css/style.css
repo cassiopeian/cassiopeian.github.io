@@ -60,13 +60,13 @@ ul {
 }
 #hero-tagline {
     font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: rgb(19, 16, 16);
-    background-image: radial-gradient(rgba(241, 231, 231, .75), rgba(233, 229, 229, .08));
-    border-radius: 20px;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: rgb(245, 235, 222, .56);
+    background-color: rgb(19, 16, 16);
+    border-radius: 5px;
     width: fit-content;
-    padding: 0 .4rem;
+    padding: .6rem 1.3rem;
     margin: .5rem auto;
 }
 h2 {
