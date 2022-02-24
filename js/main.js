@@ -23,8 +23,14 @@ $(window).on('scroll', function() {
     if (transparentZone < vanishingPoint) {
         // hide the contents of #hero-wrapper
         $('#hero-wrapper').css('opacity', 0);
+
+        // make the about section slide up and fade in
+        $('#about-wrapper').animate({
+            opacity: 1,
+            top: 0
+        }, 800);
     } else {
-        // reveal them
+        // reveal the #hero-wrapper
         $('#hero-wrapper').css('opacity', 1);
     }
 });
