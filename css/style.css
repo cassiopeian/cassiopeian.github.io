@@ -191,6 +191,8 @@ div.close-nav {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 60%;
+    opacity: 0;
+    top: 30px;
 }
 
 /* MAIN > PROJECTS -------- */
