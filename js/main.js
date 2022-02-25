@@ -15,12 +15,10 @@ $('#see-about, #see-projects').on('click', function() {
 });
 
 $(window).on('scroll', function() {
-    let about = $('#about');
-    let aboutTop = about.offset().top - $(window).scrollTop();
+    let aboutTop = $('#about').offset().top - $(window).scrollTop();
     let vanishingPoint = $('#hero').height() * .75;
     let headerHeight = $('header').height();
-    let projects = $('#projects');
-    let projectsTop = Math.floor(projects.offset().top) - $(window).scrollTop();
+    let projectsTop = Math.floor($('#projects').offset().top) - $(window).scrollTop();
 
     // if vanishingPoint is below aboutTop
     if (aboutTop < vanishingPoint) {
