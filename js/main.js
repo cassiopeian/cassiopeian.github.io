@@ -18,6 +18,9 @@ $(window).on('scroll', function() {
     let about = $('#about');
     let transparentZone = about.offset().top - $(window).scrollTop();
     let vanishingPoint = $('#hero').height() * .75;
+    let headerHeight = $('header').height();
+    let projects = $('#projects');
+    let projectsTop = Math.floor(projects.offset().top) - $(window).scrollTop();
 
     // if vanishingPoint is below transparentZone
     if (transparentZone < vanishingPoint) {
@@ -32,5 +35,17 @@ $(window).on('scroll', function() {
     } else {
         // reveal the #hero-wrapper
         $('#hero-wrapper').css('opacity', 1);
+    }
+
+    // if the header is over the...
+    if (headerHeight > projectsTop) {
+        // projects section: make the header bg color blue
+        $('header').css('backgroundColor', 'rgb(121, 141, 175)');
+    } else if (headerHeight > transparentZone) {
+        // about section: make the header bg color olive
+        $('header').css('backgroundColor', 'rgb(171, 169, 106)');
+    } else {
+        // hero section: make the header bg color charcoal 
+        $('header').css('backgroundColor', 'rgb(32, 30, 30)');
     }
 });
