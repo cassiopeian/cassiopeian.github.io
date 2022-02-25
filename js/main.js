@@ -16,14 +16,14 @@ $('#see-about, #see-projects').on('click', function() {
 
 $(window).on('scroll', function() {
     let about = $('#about');
-    let transparentZone = about.offset().top - $(window).scrollTop();
+    let aboutTop = about.offset().top - $(window).scrollTop();
     let vanishingPoint = $('#hero').height() * .75;
     let headerHeight = $('header').height();
     let projects = $('#projects');
     let projectsTop = Math.floor(projects.offset().top) - $(window).scrollTop();
 
-    // if vanishingPoint is below transparentZone
-    if (transparentZone < vanishingPoint) {
+    // if vanishingPoint is below aboutTop
+    if (aboutTop < vanishingPoint) {
         // hide the contents of #hero-wrapper
         $('#hero-wrapper').css('opacity', 0);
 
@@ -41,7 +41,7 @@ $(window).on('scroll', function() {
     if (headerHeight > projectsTop) {
         // projects section: make the header bg color blue
         $('header').css('backgroundColor', 'rgb(121, 141, 175)');
-    } else if (headerHeight > transparentZone) {
+    } else if (headerHeight > aboutTop) {
         // about section: make the header bg color olive
         $('header').css('backgroundColor', 'rgb(171, 169, 106)');
     } else {
