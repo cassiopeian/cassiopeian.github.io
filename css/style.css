@@ -58,6 +58,13 @@ ul {
     color: rgb(245, 245, 245);
     cursor: pointer;
 }
+@media (hover: hover) {
+    .nav-links a:hover {
+        letter-spacing: .1rem;
+        border-bottom: 2px solid rgb(222, 237, 141);
+        transition: 1s;
+    }
+}
 #hero-tagline {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
