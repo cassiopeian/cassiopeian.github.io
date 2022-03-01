@@ -234,7 +234,11 @@ div#projects-container {
     background-image: radial-gradient(rgb(106, 149, 105), rgb(82, 108, 96));
 }
 .card-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 400px;
+    height: 208px;
     padding: 1.4rem;
 }
 h3 {
