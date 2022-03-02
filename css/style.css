@@ -25,8 +25,8 @@ body {
 }
 
 /* 2. TEXT -------- */
-p#menu-icon,
-p#mobile-nav-x {
+#menu-icon,
+#mobile-nav-x {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -34,8 +34,8 @@ p#mobile-nav-x {
     text-transform: uppercase;
     margin: 0;
 }
-p#menu-icon,
-p#mobile-nav-x {
+#menu-icon,
+#mobile-nav-x {
     display: none;
 }
 #mobile-nav-x {
@@ -84,7 +84,7 @@ h2 {
     color: rgb(163, 112, 75);
     text-align: center;
 }
-p.global-text {
+.global-text {
     color: rgb(78, 93, 126);
     text-align: justify;
     letter-spacing: .15rem;
@@ -117,7 +117,7 @@ h1 a {
 #menu-icon {
     color: rgb(245, 245, 245);
 }
-section#hamburger {
+#hamburger {
     position: fixed;
     right: 2rem;
     z-index: 5;
@@ -128,7 +128,7 @@ nav {
     position: relative;
     z-index: 6;
 }
-div.close-nav {
+.close-nav {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -211,7 +211,7 @@ div.close-nav {
     background-size: cover;
     padding: 4rem 2rem;
 }
-div#projects-container {
+#projects-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -226,12 +226,6 @@ div#projects-container {
 .card-image {
     width: 400px;
     border-radius: 8px 8px 0 0;
-}
-.dummy {
-    width: 400px;
-    border-radius: 8px 8px 0 0;
-    height: 175px;
-    background-image: radial-gradient(rgb(106, 149, 105), rgb(82, 108, 96));
 }
 .card-text-container {
     display: flex;
@@ -252,16 +246,16 @@ h3 {
     font-family: 'Nunito';
     color: rgb(56, 83, 106);
 }
-div.github-link-line {
+.github-link-line {
     display: flex;
     align-items: center;
     justify-content: start;
 }
-img.github-logo {
+.github-logo {
     height: 15px;
     padding-right: .5rem;
 }
-a.view-code {
+.view-code {
     font-family: 'Nunito';
     font-weight: 900;
     font-size: .75rem;
@@ -291,7 +285,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {
-    section#hamburger {
+    #hamburger {
         display: block;
     }
     nav {
@@ -307,7 +301,7 @@ footer {
         padding: 0;
         margin-top: 30%;
     }
-    li.nav-links a {
+    .nav-links a {
         display: block;
         font-size: 2.5rem;
         text-align: center;
@@ -315,15 +309,15 @@ footer {
         padding: 0;
         width: fit-content;
     }
-    div.close-nav {
+    .close-nav {
         display: block;
     }
-    p#menu-icon,
-    p#mobile-nav-x {
+    #menu-icon,
+    #mobile-nav-x {
         display: block;
         cursor: pointer;
     }
-    p#mobile-nav-x:hover {
+    #mobile-nav-x:hover {
         transform: rotate(90deg);
         color: ghostwhite;
         transition-duration: 2s;
