@@ -11,7 +11,7 @@ $(window).on('resize', function(){
 
 // close the mobile nav, to view index page sections
 $('#see-about, #see-projects').on('click', function() {
-    $('nav').animate({left: '100%'});
+    $('nav').removeAttr('style');
 });
 
 $(window).on('scroll', function() {
