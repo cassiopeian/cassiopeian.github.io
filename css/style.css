@@ -176,6 +176,9 @@ ul {
 @media (hover:hover) {
     .keys:hover {
         color: rgb(245, 245, 245);
+    }
+    .keys:hover,
+    #hero-tagline:hover {
         box-shadow: 0 0 5px 3px rgb(199, 199, 199);
     }
 }
@@ -189,6 +192,7 @@ ul {
     width: fit-content;
     padding: .6rem 1.3rem;
     margin: .5rem auto;
+    cursor: default;
 }
 
 /* 4. ABOUT */
@@ -337,7 +341,7 @@ footer {
     }
 
     /* HERO */
-    
+
     .keys {
         font-size: 1.3rem;
         height: 2.5rem;
