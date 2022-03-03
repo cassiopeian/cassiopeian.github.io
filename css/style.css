@@ -1,11 +1,16 @@
 /* --------------
 STYLE SECTIONS
 1. GLOBAL
-2. TEXT
-3. HEADER
+2. HEADER
+3. HERO
+4. ABOUT
+5. PROJECTS
+6. FOOTER
+7. MEDIA QUERIES
 -------------- */
 
-/* 1. GLOBAL -------- */
+/* 1. GLOBAL */
+
 html {
     font-size: 16px;
     box-sizing: border-box;
@@ -23,8 +28,56 @@ body {
     margin: 0;
     padding: 0;
 }
+h2 {
+    font-family: aisha-latin, sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(163, 112, 75);
+    text-align: center;
+}
+.global-text {
+    color: rgb(78, 93, 126);
+    text-align: justify;
+    letter-spacing: .15rem;
+}
 
-/* 2. TEXT -------- */
+/* 2. HEADER  */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    background-color: rgb(32, 30, 30);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+h1 {
+    font-family: shelby, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    letter-spacing: .04rem;
+    text-transform: lowercase;
+    margin: 0;
+}
+h1 a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+#hamburger {
+    position: fixed;
+    right: 2rem;
+    z-index: 5;
+    cursor: pointer;
+    display: none;
+}
+#menu-icon {
+    color: rgb(245, 245, 245);
+}
 #menu-icon,
 #mobile-nav-x {
     font-family: 'Nunito', sans-serif;
@@ -40,6 +93,10 @@ body {
 }
 #mobile-nav-x {
     color: rgb(41, 31, 87);
+}
+nav {
+    position: relative;
+    z-index: 6;
 }
 ul {
     margin: 0;
@@ -65,69 +122,6 @@ ul {
         transition: 1s;
     }
 }
-#hero-tagline {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    font-size: 1.3rem;
-    color: rgb(245, 235, 222, .56);
-    background-color: rgb(19, 16, 16);
-    border-radius: 5px;
-    width: fit-content;
-    padding: .6rem 1.3rem;
-    margin: .5rem auto;
-}
-h2 {
-    font-family: aisha-latin, sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color: rgb(163, 112, 75);
-    text-align: center;
-}
-.global-text {
-    color: rgb(78, 93, 126);
-    text-align: justify;
-    letter-spacing: .15rem;
-}
-/* 3. HEADER -------- */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 2rem;
-    background-color: rgb(32, 30, 30);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 4;
-}
-h1 {
-    font-family: shelby, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.8rem;
-    letter-spacing: .04rem;
-    text-transform: lowercase;
-    margin: 0;
-}
-h1 a {
-    color: rgb(245, 245, 245);
-    text-decoration: none;
-}
-#menu-icon {
-    color: rgb(245, 245, 245);
-}
-#hamburger {
-    position: fixed;
-    right: 2rem;
-    z-index: 5;
-    cursor: pointer;
-    display: none;
-}
-nav {
-    position: relative;
-    z-index: 6;
-}
 .close-nav {
     position: absolute;
     top: 30px;
@@ -137,7 +131,8 @@ nav {
     display: none;
 }
 
-/* MAIN -------- */
+/* 3. HERO */
+
 #hero {
     background-image: url('../images/backgrounds/nacht.png');
     height: 100vh;
@@ -184,6 +179,20 @@ nav {
         box-shadow: 0 0 5px 3px rgb(199, 199, 199);
     }
 }
+#hero-tagline {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: rgb(245, 235, 222, .56);
+    background-color: rgb(19, 16, 16);
+    border-radius: 5px;
+    width: fit-content;
+    padding: .6rem 1.3rem;
+    margin: .5rem auto;
+}
+
+/* 4. ABOUT */
+
 #about {
     position: relative;
     width: 100%;
@@ -202,7 +211,8 @@ nav {
     top: 30px;
 }
 
-/* MAIN > PROJECTS -------- */
+/* 5. PROJECTS */
+
 #projects {
     background-image: url('../images/backgrounds/peacock.png');
     min-height: 100vh;
@@ -266,7 +276,7 @@ h3 {
     text-decoration: none;
 }
 
-/* FOOTER */
+/* 6. FOOTER */
 
 footer {
     width: 100%;
@@ -282,9 +292,12 @@ footer {
     margin: 0;
 }
 
-/* MEDIA QUERIES */
+/* 7. MEDIA QUERIES */
 
 @media only screen and (max-width: 800px) {
+
+    /* HEADER */
+
     #hamburger {
         display: block;
     }
@@ -322,6 +335,9 @@ footer {
         color: ghostwhite;
         transition-duration: 2s;
     }
+
+    /* HERO */
+    
     .keys {
         font-size: 1.3rem;
         height: 2.5rem;
@@ -335,7 +351,7 @@ footer {
 
 @media only screen and (max-width: 415px) {
 
-    /* MAIN */
+    /* HERO */
 
     #hero,
     #pattern {
@@ -353,6 +369,9 @@ footer {
     #hero-tagline {
         font-size: 1rem;
     }
+
+    /* ABOUT */
+
     #about-wrapper {
         max-width: unset;
     }
