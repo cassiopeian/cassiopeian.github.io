@@ -250,11 +250,15 @@ ul {
     padding: 1.4rem;
 }
 h3 {
+    margin: 0 0 1rem 0;
+}
+h3 a {
     font-family: 'Nunito';
     text-transform: uppercase;
     color: rgb(218, 120, 114);
     letter-spacing: .1rem;
-    margin: 0 0 1rem 0;
+    text-decoration: none;
+    border-bottom: 1px dashed;
 }
 .project-blurb {
     font-family: 'Nunito';
