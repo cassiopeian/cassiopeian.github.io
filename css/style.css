@@ -277,10 +277,9 @@ h3 a {
     font-family: 'Nunito';
     font-weight: 900;
     font-size: .75rem;
-    text-transform: uppercase;
     letter-spacing: .05rem;
     color: rgb(73, 110, 165);
-    border-bottom: 1px solid;
+    border-bottom: 1px dashed;
     text-decoration: none;
 }
 
