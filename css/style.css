@@ -173,7 +173,7 @@ ul {
     margin: .4rem;
     cursor: default;
 }
-@media (hover:hover) {
+@media (hover: hover) {
     .keys:hover {
         color: rgb(245, 245, 245);
     }
@@ -262,6 +262,12 @@ h3 a {
     letter-spacing: .1rem;
     text-decoration: none;
     border-bottom: 1px dashed;
+}
+@media (hover: hover) {
+    h3 a:hover,
+    .view-code:hover {
+        opacity: .7;
+    }
 }
 .project-blurb {
     font-family: 'Nunito';
