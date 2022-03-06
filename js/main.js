@@ -1,3 +1,14 @@
+function setCardHeights() {
+    tallestCard = $('#tallest-card').innerHeight();
+
+    // use the tallest card's height to set the height for all cards
+    $('.card-height').css('height', tallestCard);
+};
+
+$(window).on('load', function() {
+    setCardHeights();
+});
+
 // open and close the hamburger menu
 $('#hamburger').on('click', function(){
     $('nav').animate({left: 0});
@@ -7,6 +18,8 @@ $('.close-nav').on('click', function(){
 });
 $(window).on('resize', function(){
     $('nav').removeAttr('style');
+
+    setCardHeights();
 });
 
 // close the mobile nav, to view index page sections
