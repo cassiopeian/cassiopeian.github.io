@@ -277,6 +277,9 @@ h3 a {
     font-family: 'Nunito';
     color: rgb(56, 83, 106);
 }
+#nbsp {
+    white-space: nowrap;
+}
 .github-link-line {
     display: flex;
     align-items: center;
