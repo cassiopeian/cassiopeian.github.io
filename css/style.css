@@ -244,13 +244,17 @@ ul {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
+.card-text-wrapper {
+    padding: 1.4rem;
+}
 .card-text-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 208px;
-    padding: 1.4rem;
+}
+#tallest-card {
+    height: fit-content;
 }
 h3 {
     margin: 0 0 1rem 0;
