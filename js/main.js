@@ -54,7 +54,7 @@ $(window).on('scroll', function() {
         $('header').css('backgroundColor', 'rgb(121, 141, 175)');
     } else if (headerHeight > aboutTop) {
         // about section: make the header bg color olive
-        $('header').css('backgroundColor', 'rgb(171, 169, 106)');
+        $('header').css('backgroundColor', 'rgb(106, 120, 86)');
     } else {
         // hero section: make the header bg color charcoal 
         $('header').css('backgroundColor', 'rgb(32, 30, 30)');
