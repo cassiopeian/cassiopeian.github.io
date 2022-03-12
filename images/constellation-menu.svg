@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41.916 32.249">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #f5f5f5;
+      }
+
+      .cls-3 {
+        fill: #90f5f5;
+        opacity: 0.29;
+      }
+
+      .cls-10, .cls-4, .cls-6 {
+        mix-blend-mode: lighten;
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient-4);
+      }
+
+      .cls-8 {
+        fill: url(#radial-gradient-5);
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient-6);
+      }
+
+      .cls-10 {
+        fill: url(#radial-gradient-7);
+      }
+
+      .cls-11 {
+        fill: url(#radial-gradient-8);
+      }
+
+      .cls-12, .cls-13, .cls-14 {
+        fill: none;
+        stroke: #9bcccc;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .cls-13 {
+        stroke-dasharray: 0.67 1.339;
+      }
+
+      .cls-14 {
+        stroke-dasharray: 0.75 1.5;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-18.029" cy="22.126" r="3.344" gradientTransform="translate(1.167 37.254) rotate(-150.447)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.188" stop-color="#f5f5f5" stop-opacity="0"/>
+      <stop offset="0.259" stop-color="#eff4f5" stop-opacity="0.034"/>
+      <stop offset="0.371" stop-color="#ddf2f4" stop-opacity="0.129"/>
+      <stop offset="0.51" stop-color="#c1eef3" stop-opacity="0.283"/>
+      <stop offset="0.669" stop-color="#9aeaf1" stop-opacity="0.497"/>
+      <stop offset="0.844" stop-color="#68e3ef" stop-opacity="0.767"/>
+      <stop offset="0.981" stop-color="#3ddeed"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="27.836" cy="26.367" r="5.348" gradientTransform="translate(-6.089 8.899) rotate(-15.447)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.077" stop-color="#d9f1f4" stop-opacity="0.847"/>
+      <stop offset="0.2" stop-color="#b0ecf2" stop-opacity="0.625"/>
+      <stop offset="0.325" stop-color="#8de8f0" stop-opacity="0.434"/>
+      <stop offset="0.449" stop-color="#70e4ef" stop-opacity="0.277"/>
+      <stop offset="0.571" stop-color="#5ae2ee" stop-opacity="0.156"/>
+      <stop offset="0.69" stop-color="#4ae0ee" stop-opacity="0.069"/>
+      <stop offset="0.807" stop-color="#40deed" stop-opacity="0.017"/>
+      <stop offset="0.917" stop-color="#3ddeed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="-18.21" cy="35.579" r="2.84" gradientTransform="matrix(-0.511, -0.86, 0.86, -0.511, -2.516, 19.054)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="37.477" cy="16.982" r="4.542" gradientTransform="translate(5.249 -9.166) rotate(14.292)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-5" cx="12.035" cy="14.384" r="5.348" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-6" cx="23.035" cy="15.384" r="5.348" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient-2"/>
+    <radialGradient id="radial-gradient-7" cx="12.89" cy="21.263" r="3.344" gradientTransform="translate(2.298 30.025) rotate(-141.727)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-8" cx="5.362" cy="5.114" r="5.348" gradientTransform="translate(-0.576 0.898) rotate(-6.727)" xlink:href="#radial-gradient-2"/>
+  </defs>
+  <g class="cls-1">
+    <g id="menu_lines" data-name="menu lines">
+      <rect class="cls-2" x="8.348" y="7.899" width="24.831" height="0.898" rx="0.449"/>
+      <rect class="cls-2" x="8.348" y="15.899" width="24.831" height="0.898" rx="0.449"/>
+      <rect class="cls-2" x="8.348" y="23.899" width="24.831" height="0.898" rx="0.449"/>
+    </g>
+    <g id="bottom_star" data-name="bottom star">
+      <polygon class="cls-3" points="27.546 26.111 29.109 24.526 28.553 26.681 30.137 28.245 27.982 27.688 26.418 29.272 26.975 27.117 25.391 25.554 27.546 26.111"/>
+      <polygon class="cls-4" points="27.311 27.698 23.206 28.159 26.965 26.446 26.504 22.341 28.217 26.1 32.322 25.64 28.563 27.352 29.023 31.457 27.311 27.698"/>
+      <circle class="cls-5" cx="27.764" cy="26.899" r="5.348"/>
+    </g>
+    <g id="middle_star" data-name="middle star">
+      <polygon class="cls-3" points="37.545 15.869 39.365 15.359 38.047 16.714 38.556 18.534 37.202 17.216 35.381 17.725 36.7 16.371 36.19 14.55 37.545 15.869"/>
+      <polygon class="cls-6" points="36.702 16.941 33.481 15.551 36.975 15.871 38.365 12.65 38.044 16.144 41.265 17.534 37.772 17.213 36.382 20.434 36.702 16.941"/>
+      <circle class="cls-7" cx="37.373" cy="16.542" r="4.542"/>
+    </g>
+    <g id="glowing_stars" data-name="glowing stars">
+      <circle class="cls-8" cx="12.035" cy="14.384" r="5.348"/>
+      <circle class="cls-9" cx="23.035" cy="15.384" r="5.348"/>
+    </g>
+    <g id="top_star" data-name="top star">
+      <polygon class="cls-3" points="5.253 4.536 7.038 3.207 6.161 5.253 7.49 7.038 5.444 6.161 3.659 7.49 4.536 5.444 3.207 3.659 5.253 4.536"/>
+      <polygon class="cls-10" points="4.779 6.07 0.652 5.902 4.627 4.779 4.794 0.652 5.917 4.627 10.045 4.794 6.07 5.917 5.902 10.045 4.779 6.07"/>
+      <circle class="cls-11" cx="5.348" cy="5.348" r="5.348"/>
+    </g>
+    <g id="connections">
+      <g>
+        <line class="cls-12" x1="6.797" y1="7.899" x2="6.997" y2="8.217"/>
+        <line class="cls-13" x1="7.709" y1="9.351" x2="9.489" y2="12.187"/>
+        <line class="cls-12" x1="9.845" y1="12.754" x2="10.045" y2="13.071"/>
+      </g>
+      <line class="cls-14" x1="15.02" y1="14.834" x2="21.365" y2="14.834"/>
+      <line class="cls-14" x1="23.603" y1="17.268" x2="26.143" y2="24.526"/>
+      <line class="cls-14" x1="29.484" y1="25.422" x2="36.572" y2="17.678"/>
+    </g>
+  </g>
+</svg>
