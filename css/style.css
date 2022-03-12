@@ -75,10 +75,6 @@ h1 a {
     cursor: pointer;
     display: none;
 }
-#menu-icon {
-    color: rgb(245, 245, 245);
-}
-#menu-icon,
 #mobile-nav-x {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
@@ -87,7 +83,10 @@ h1 a {
     text-transform: uppercase;
     margin: 0;
 }
-#menu-icon,
+#constellation-menu {
+    height: 2rem;
+}
+#constellation-menu
 #mobile-nav-x {
     display: none;
 }
@@ -348,7 +347,7 @@ footer {
     .close-nav {
         display: block;
     }
-    #menu-icon,
+    #constellation-menu,
     #mobile-nav-x {
         display: block;
         cursor: pointer;
