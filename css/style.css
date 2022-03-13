@@ -280,7 +280,11 @@ h3 a {
     }
 }
 .project-blurb {
-    font-family: 'Nunito';
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: .04rem;
     color: rgb(56, 83, 106);
 }
 #nbsp {
