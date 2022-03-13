@@ -300,8 +300,9 @@ h3 a {
     padding-right: .5rem;
 }
 .view-code {
-    font-family: 'Nunito';
-    font-weight: 900;
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: .75rem;
     letter-spacing: .05rem;
     color: rgb(73, 110, 165);
