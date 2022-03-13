@@ -265,12 +265,13 @@ h3 {
     margin: 0 0 1rem 0;
 }
 h3 a {
-    font-family: 'Nunito';
-    text-transform: uppercase;
-    color: rgb(218, 120, 114);
+    font-family: chippewa-falls, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: rgb(215, 99, 92);
     letter-spacing: .1rem;
     text-decoration: none;
-    border-bottom: 1px dashed;
 }
 @media (hover: hover) {
     h3 a:hover,
