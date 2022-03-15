@@ -29,11 +29,11 @@ body {
     padding: 0;
 }
 h2 {
-    font-family: aisha-latin, sans-serif;
+    font-family: chippewa-falls, sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
-    text-transform: uppercase;
-    color: rgb(163, 112, 75);
+    color: rgb(23, 86, 86);
+    letter-spacing: .1rem;
     text-align: center;
 }
 .global-text {
