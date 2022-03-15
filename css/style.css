@@ -28,6 +28,14 @@ body {
     margin: 0;
     padding: 0;
 }
+.watercolor-splash {
+    background-image: url('../images/watercolor-splash.svg');
+    background-repeat: no-repeat;
+    background-position: center 2.8rem;
+    width: 25rem;
+    margin: 2rem auto;
+    padding: .5rem 2rem;
+}
 h2 {
     font-family: chippewa-falls, sans-serif;
     font-weight: 400;
