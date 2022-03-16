@@ -346,6 +346,9 @@ footer {
 
     /* HEADER */
 
+    #constellation {
+        display: none;
+    }
     #hamburger {
         display: block;
     }
