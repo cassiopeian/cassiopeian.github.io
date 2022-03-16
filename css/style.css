@@ -63,6 +63,15 @@ header {
     width: 100%;
     z-index: 4;
 }
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#constellation,
+#constellation-menu {
+    height: 2rem;
+}
 h1 {
     font-family: shelby, sans-serif;
     font-weight: 400;
@@ -90,9 +99,6 @@ h1 a {
     font-size: 2rem;
     text-transform: uppercase;
     margin: 0;
-}
-#constellation-menu {
-    height: 2rem;
 }
 @media (hover: hover) {
     #constellation-menu:hover {
