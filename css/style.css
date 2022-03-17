@@ -72,6 +72,28 @@ header {
 #constellation-menu {
     height: 2rem;
 }
+.star-pulse {
+    -webkit-animation-name: star-pulse;
+    animation-name: star-pulse;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+@-webkit-keyframes star-pulse {
+    from {
+        filter: saturate(1);
+    }
+    to {
+        filter: saturate(5);
+    }
+}
+@keyframes star-pulse {
+    from {
+        filter: saturate(1);
+    }
+    to {
+        filter: saturate(5);
+    }
+}
 h1 {
     font-family: shelby, sans-serif;
     font-weight: 400;
