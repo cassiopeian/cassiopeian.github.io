@@ -49,9 +49,11 @@ $(window).on('scroll', function() {
     }
 
     function constellationGlow() {
+        // play the star-pulse keyframes animation
         $('#constellation').addClass('star-pulse');
 
         setTimeout(function() {
+            // remove the animation, so it can be replayed
             $('#constellation').removeClass('star-pulse');
         }, 2000);
     }
