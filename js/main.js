@@ -48,15 +48,26 @@ $(window).on('scroll', function() {
         $('#hero-wrapper').css('opacity', 1);
     }
 
+    function constellationGlow() {
+        $('#constellation').addClass('star-pulse');
+
+        setTimeout(function() {
+            $('#constellation').removeClass('star-pulse');
+        }, 2000);
+    }
+
     // if the header is over the...
     if (headerHeight > projectsTop) {
         // projects section: make the header bg color blue
         $('header').css('backgroundColor', 'rgb(121, 141, 175)');
+        constellationGlow();
     } else if (headerHeight > aboutTop) {
         // about section: make the header bg color olive
         $('header').css('backgroundColor', 'rgb(106, 120, 86)');
+        constellationGlow();
     } else {
         // hero section: make the header bg color charcoal 
         $('header').css('backgroundColor', 'rgb(32, 30, 30)');
+        constellationGlow();
     }
 });
