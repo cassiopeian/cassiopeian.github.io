@@ -12,7 +12,14 @@ const aisudoku = {
     './images/projects/aisudoku/aisudoku-3.png']
 };
 
-const slides = [karteikarten, aisudoku];
+const caseConverter = {
+    name: 'case-converter',
+    images: ['./images/projects/case-converter/case-converter-1.png',
+    './images/projects/case-converter/case-converter-2.png',
+    './images/projects/case-converter/case-converter-3.png']
+};
+
+const slides = [karteikarten, aisudoku, caseConverter];
 let picIndex = 0;
 
 function setCardHeights() {
