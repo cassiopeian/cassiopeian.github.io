@@ -297,9 +297,9 @@ ul {
 .carousel-dot {
     width: .9rem;
     height: .9rem;
-    margin: 0 .02rem;
-    background-color: rgb(187, 187, 187);
-    border: none;
+    margin: 0 .3rem;
+    background-color: inherit;
+    border: 1px solid rgb(154, 213, 183);
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
@@ -307,8 +307,11 @@ ul {
 }
 @media (hover: hover) {
     .carousel-dot:hover {
-        background-color: rgb(113, 113, 113);
+        background-color: rgb(154, 213, 183);
     }
+}
+.current-dot {
+    background-color: rgb(154, 213, 183);
 }
 .card-image {
     width: 100%;
