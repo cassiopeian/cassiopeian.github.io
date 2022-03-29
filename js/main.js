@@ -1,3 +1,20 @@
+const karteikarten = {
+    name: 'karteikarten',
+    images: ['./images/projects/karteikarten/karteikarten-1.png',
+    './images/projects/karteikarten/karteikarten-2.png',
+    './images/projects/karteikarten/karteikarten-3.png']
+};
+
+const aisudoku = {
+    name: 'aisudoku',
+    images: ['./images/projects/aisudoku/aisudoku-1.png',
+    './images/projects/aisudoku/aisudoku-2.png',
+    './images/projects/aisudoku/aisudoku-3.png']
+};
+
+const slides = [karteikarten, aisudoku];
+let picIndex = 0;
+
 function setCardHeights() {
     tallestCard = $('#tallest-card').innerHeight();
 
