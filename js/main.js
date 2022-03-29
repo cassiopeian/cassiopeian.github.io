@@ -96,3 +96,43 @@ $(window).on('scroll', function() {
         constellationGlow();
     }
 });
+
+// move project-card slideshow forward
+$('.prev').on('click', function() {
+    slides.forEach(obj => {
+        // if the object's name matches a .card-image id
+        if (obj.name == $(this).siblings('img').attr('id')) {
+            // increase picIndex's value by 1
+            picIndex -= 1;
+            
+            // if the first image is displayed
+            if (picIndex < 0) {
+                // jumpt to the end of the obj.images array
+                picIndex = 2;
+            }
+
+            // update the appropriate card image
+            $(this).siblings('img').attr('src', obj.images[picIndex]);
+        }
+    });
+});
+
+// move project-card slideshow backward
+$('.next').on('click', function() {
+    // if the object's name matches a .card-image id
+    slides.forEach(obj => {
+        if (obj.name == $(this).siblings('img').attr('id')) {
+            // decrease picIndex's value by 1
+            picIndex += 1;
+
+            // if the last image is displayed
+            if (picIndex == obj.images.length) {
+                // jump to the beginning of the obj.images array
+                picIndex = 0;
+            }
+
+            // update the appropriate card image
+            $(this).siblings('img').attr('src', obj.images[picIndex]);
+        }
+    });
+});
