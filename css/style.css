@@ -302,7 +302,7 @@ ul {
     margin-top: -22px;
     padding: .5rem;
     cursor: pointer;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 }
 .prev {
     left: 0;
