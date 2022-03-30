@@ -112,10 +112,16 @@ $('.prev').on('click', function() {
             // increase picIndex's value by 1
             picIndex -= 1;
             
+            // move the active dot backward
+            $(this).siblings('div').find('.current-dot').removeClass('current-dot').prev().addClass('current-dot');
+
             // if the first image is displayed
             if (picIndex < 0) {
                 // jumpt to the end of the obj.images array
                 picIndex = 2;
+
+                // send the active dot to the end
+                $(this).siblings('div').children().last().addClass('current-dot');
             }
 
             // update the appropriate card image
@@ -132,10 +138,16 @@ $('.next').on('click', function() {
             // decrease picIndex's value by 1
             picIndex += 1;
 
+            // move the active dot forward
+            $(this).siblings('div').find('.current-dot').removeClass('current-dot').next().addClass('current-dot');
+
             // if the last image is displayed
             if (picIndex == obj.images.length) {
                 // jump to the beginning of the obj.images array
                 picIndex = 0;
+
+                // send the active dot back to the beginning
+                $(this).siblings('div').children().first().addClass('current-dot');
             }
 
             // update the appropriate card image
