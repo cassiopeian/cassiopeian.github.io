@@ -19,7 +19,14 @@ const caseConverter = {
     './images/projects/case-converter/case-converter-3.png']
 };
 
-const slides = [karteikarten, aisudoku, caseConverter];
+const dogAgeCalculator = {
+    name: 'dog-age-calculator',
+    images: ['./images/projects/dog-age-calculator/dog-age-calculator-1.png',
+    './images/projects/dog-age-calculator/dog-age-calculator-2.png',
+    './images/projects/dog-age-calculator/dog-age-calculator-3.png']
+};
+
+const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator];
 let picIndex = 0;
 
 function setCardHeights() {
