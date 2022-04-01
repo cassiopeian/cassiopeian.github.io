@@ -26,7 +26,14 @@ const dogAgeCalculator = {
     './images/projects/dog-age-calculator/dog-age-calculator-3.png']
 };
 
-const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator];
+const memoryGame = {
+    name: 'memory-game',
+    images: ['./images/projects/memory-game/memory-game-1.png',
+    './images/projects/memory-game/memory-game-2.png',
+    './images/projects/memory-game/memory-game-3.png']
+};
+
+const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator, memoryGame];
 let picIndex = 0;
 
 function setCardHeights() {
