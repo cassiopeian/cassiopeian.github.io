@@ -33,7 +33,14 @@ const memoryGame = {
     './images/projects/memory-game/memory-game-3.png']
 };
 
-const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator, memoryGame];
+const magicEightBall = {
+    name: 'magic-eight-ball',
+    images: ['./images/projects/magic-eight-ball/magic-eight-ball-1.png',
+    './images/projects/magic-eight-ball/magic-eight-ball-2.png',
+    './images/projects/magic-eight-ball/magic-eight-ball-3.png']
+}
+
+const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator, memoryGame, magicEightBall];
 let picIndex = 0;
 
 function setCardHeights() {
