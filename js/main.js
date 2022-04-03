@@ -176,3 +176,23 @@ $('.next').on('click', function() {
         }
     });
 });
+
+$('.carousel-dot').on('click', function() {
+    let allImages = [];
+    let dots = $('.carousel-dot');
+    
+    // create a .carousel-dot array
+    let dotsArr = Array.from(dots);
+    
+    // grab the index of whichever dot is clicked
+    let dotIndex = dotsArr.indexOf(this);
+    
+    // loop through each object in the slides array
+    slides.forEach(obj => {
+        // and add each obj.images file path to the allImages array
+        allImages.push.apply(allImages, obj.images);
+    });
+
+    // traverse up to the img associated with the clicked dot, and update the src with the allImages path that matches the dotIndex position
+    $(this).parent().siblings('img').attr('src', allImages[dotIndex]);
+});
