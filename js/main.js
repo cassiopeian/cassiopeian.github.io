@@ -147,8 +147,6 @@ $('.prev').on('click', function() {
 
             // update the appropriate card image
             $(this).siblings('img').attr('src', obj.images[picIndex]);
-
-            console.log(picIndex);
         }
     });
 });
@@ -175,8 +173,6 @@ $('.next').on('click', function() {
 
             // update the appropriate card image
             $(this).siblings('img').attr('src', obj.images[picIndex]);
-
-            console.log(picIndex);
         }
     });
 });
@@ -203,5 +199,30 @@ $('.carousel-dot').on('click', function() {
     // ensure there's only one "current dot" in each carousel
     $(this).addClass('current-dot').siblings().removeClass('current-dot');
 
-    console.log(picIndex);
+    // update picIndex, to prevent issues with prev/next arrows
+    if (dotIndex === 0 ||
+        dotIndex === 3 ||
+        dotIndex === 6 ||
+        dotIndex === 9 ||
+        dotIndex === 12 ||
+        dotIndex === 15) {
+            // for each carousel's first dot, picIndex is 0
+            picIndex = 0;
+    } else if (dotIndex === 1 ||
+        dotIndex === 4 ||
+        dotIndex === 7 ||
+        dotIndex === 10 ||
+        dotIndex === 13 ||
+        dotIndex === 16) {
+            // for each carousel's middle dot, picIndex is 1
+            picIndex = 1;
+    } else if (dotIndex === 2 ||
+        dotIndex === 5 ||
+        dotIndex === 8 ||
+        dotIndex === 11 ||
+        dotIndex === 14 ||
+        dotIndex === 17) {
+            // for each carousel's last dot, picIndex is 2
+            picIndex = 2;
+    }
 });
