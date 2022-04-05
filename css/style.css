@@ -335,7 +335,7 @@ ul {
 }
 @media (hover: hover) {
     .carousel-dot:hover {
-        background-color: rgb(154, 213, 183);
+        background-color: rgb(50, 65, 78);
     }
 }
 .current-dot {
