@@ -172,7 +172,7 @@ $('.next').on('click', function() {
             }
 
             // update the appropriate card image
-            $(this).siblings('img').attr('src', obj.images[picIndex]);
+            $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[picIndex]);
         }
     });
 });
