@@ -194,7 +194,7 @@ $('.carousel-dot').on('click', function() {
     });
 
     // traverse up to the img associated with the clicked dot, and update the src with the allImages path that matches the dotIndex position
-    $(this).parent().siblings('img').attr('src', allImages[dotIndex]);
+    $(this).parent().siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', allImages[dotIndex]);
 
     // ensure there's only one "current dot" in each carousel
     $(this).addClass('current-dot').siblings().removeClass('current-dot');
