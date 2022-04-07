@@ -130,7 +130,7 @@ $('.prev').on('click', function() {
     slides.forEach(obj => {
         // if the object's name matches a .card-image id
         if (obj.name == $(this).siblings('img').attr('id')) {
-            // increase picIndex's value by 1
+            // decrease picIndex's value by 1
             picIndex -= 1;
             
             // move the active dot backward
@@ -156,7 +156,7 @@ $('.next').on('click', function() {
     // if the object's name matches a .card-image id
     slides.forEach(obj => {
         if (obj.name == $(this).siblings('img').attr('id')) {
-            // decrease picIndex's value by 1
+            // increase picIndex's value by 1
             picIndex += 1;
 
             // move the active dot forward
