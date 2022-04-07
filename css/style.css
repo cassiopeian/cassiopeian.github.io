@@ -380,9 +380,10 @@ h3 a {
     font-family: ff-speak-web, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.1rem;
-    letter-spacing: .04rem;
-    color: rgb(56, 83, 106);
+    font-size: 1.12rem;
+    letter-spacing: .01rem;
+    line-height: 1.25;
+    color: rgb(50, 65, 78);
 }
 #nbsp {
     white-space: nowrap;
