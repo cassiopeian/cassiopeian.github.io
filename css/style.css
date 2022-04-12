@@ -470,6 +470,13 @@ footer {
         padding: 0 0 0 5%;
         width: fit-content;
     }
+    @media (hover: hover) {
+        .nav-links a:hover {
+            font-weight: 400;
+            color: rgb(57, 127, 155);
+            border-bottom: 3px solid rgb(88, 153, 151);
+        }
+    }
     .close-nav {
         display: block;
     }
