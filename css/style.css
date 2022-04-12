@@ -165,8 +165,14 @@ ul {
 }
 .close-nav {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: .8rem;
+    right: 2.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(233, 237, 223, 0.439);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
     z-index: 5;
     cursor: pointer;
     display: none;
