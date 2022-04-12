@@ -478,7 +478,7 @@ footer {
         }
     }
     .close-nav {
-        display: block;
+        display: flex;
     }
     #constellation-menu,
     #mobile-nav-x {
