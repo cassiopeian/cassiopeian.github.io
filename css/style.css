@@ -5,6 +5,7 @@ STYLE SECTIONS
 3. HERO
 4. ABOUT
 5. PROJECTS
+-. PATTERNS 
 6. FOOTER
 7. MEDIA QUERIES
 -------------- */
@@ -423,6 +424,53 @@ h3 a {
     color: rgb(73, 110, 165);
     border-bottom: 1px dashed;
     text-decoration: none;
+}
+
+/* -. PATTERNS */
+
+#patterns {
+    background-image: url('../images/patterns/diamond-sashiko.svg');
+    background-size: 100px;
+    background-repeat: repeat;
+    margin: 7rem 0;
+}
+#parallelograms-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+.parallelogram {
+    height: 100%;
+    width: 25%;
+    transform: skew(341deg);
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.pattern {
+    background-repeat: repeat;
+    background-size: 30%;
+    height: 100%;
+    width: 200%;
+    position: relative;
+    transform: translateX(-150px) skew(-341deg);
+}
+#pattern1 {
+    background-image: url('../images/patterns/art-deco-fans.svg');
+    background-size: 100px;
+}
+#pattern2 {
+    background-image: url('../images/patterns/fish-scale-pattern.svg');
+    background-size: 90px;
+}
+#pattern3 {
+    background-image: url('../images/patterns/grunge-rubiks-pattern.png');
+}
+#pattern4 {
+    background-image: url('../images/patterns/dog-things-desaturated.png');
 }
 
 /* 6. FOOTER */
