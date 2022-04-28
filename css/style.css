@@ -470,6 +470,11 @@ h3 a {
     background-image: url('../images/patterns/grunge-rubiks-pattern.png');
 }
 #pattern4 {
+    background-image: url('../images/patterns/ogee-pattern.svg'), linear-gradient(to top, rgb(179, 17, 65), rgb(255, 149, 0));
+    background-size: 100px;
+    
+}
+#pattern5 {
     background-image: url('../images/patterns/dog-things-desaturated.png');
 }
 
