@@ -226,3 +226,26 @@ $('.carousel-dot').on('click', function() {
             picIndex = 2;
     }
 });
+
+// ------------------
+// ILLUSTRATION PAGE
+// ------------------
+
+$('.parallelogram').on('click', function() {
+    // if only one pattern is displayed
+    if ($(this).siblings().css('width') === '0px') {
+        // reset the width of all parallelograms
+        $('.parallelogram').animate({
+            width: '20%'
+        }, 2000);
+    } else {
+        // if one parallelogram is selected
+        $(this).animate({
+            // expand its width to 100%
+            width: '100%'
+        }, 2000).siblings().animate({
+            // and shrink the rest to nothing
+            width: '0px'
+        }, 2000);
+    }
+});
