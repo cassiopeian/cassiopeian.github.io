@@ -596,4 +596,11 @@ footer {
     #about-wrapper {
         max-width: unset;
     }
+
+    /* PATTERNS */
+
+    .parallelogram,
+    .pattern {
+        transform: unset;
+    }
 }
