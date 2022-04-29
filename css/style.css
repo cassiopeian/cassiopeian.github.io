@@ -449,6 +449,7 @@ h3 a {
     background: transparent;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 .pattern {
     background-repeat: repeat;
