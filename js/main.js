@@ -2,46 +2,51 @@ const karteikarten = {
     name: 'karteikarten',
     images: ['./images/projects/karteikarten/karteikarten-1.png',
     './images/projects/karteikarten/karteikarten-2.png',
-    './images/projects/karteikarten/karteikarten-3.png']
+    './images/projects/karteikarten/karteikarten-3.png'],
+    imgIndex: 0
 };
 
 const aisudoku = {
     name: 'aisudoku',
     images: ['./images/projects/aisudoku/aisudoku-1.png',
     './images/projects/aisudoku/aisudoku-2.png',
-    './images/projects/aisudoku/aisudoku-3.png']
+    './images/projects/aisudoku/aisudoku-3.png'],
+    imgIndex: 0
 };
 
 const caseConverter = {
     name: 'case-converter',
     images: ['./images/projects/case-converter/case-converter-1.png',
     './images/projects/case-converter/case-converter-2.png',
-    './images/projects/case-converter/case-converter-3.png']
+    './images/projects/case-converter/case-converter-3.png'],
+    imgIndex: 0
 };
 
 const dogAgeCalculator = {
     name: 'dog-age-calculator',
     images: ['./images/projects/dog-age-calculator/dog-age-calculator-1.png',
     './images/projects/dog-age-calculator/dog-age-calculator-2.png',
-    './images/projects/dog-age-calculator/dog-age-calculator-3.png']
+    './images/projects/dog-age-calculator/dog-age-calculator-3.png'],
+    imgIndex: 0
 };
 
 const memoryGame = {
     name: 'memory-game',
     images: ['./images/projects/memory-game/memory-game-1.png',
     './images/projects/memory-game/memory-game-2.png',
-    './images/projects/memory-game/memory-game-3.png']
+    './images/projects/memory-game/memory-game-3.png'],
+    imgIndex: 0
 };
 
 const magicEightBall = {
     name: 'magic-eight-ball',
     images: ['./images/projects/magic-eight-ball/magic-eight-ball-1.png',
     './images/projects/magic-eight-ball/magic-eight-ball-2.png',
-    './images/projects/magic-eight-ball/magic-eight-ball-3.png']
+    './images/projects/magic-eight-ball/magic-eight-ball-3.png'],
+    imgIndex: 0
 }
 
 const slides = [karteikarten, aisudoku, caseConverter, dogAgeCalculator, memoryGame, magicEightBall];
-let picIndex = 0;
 
 function setCardHeights() {
     tallestCard = $('#tallest-card').innerHeight();
@@ -130,23 +135,23 @@ $('.prev').on('click', function() {
     slides.forEach(obj => {
         // if the object's name matches a .card-image id
         if (obj.name == $(this).siblings('img').attr('id')) {
-            // decrease picIndex's value by 1
-            picIndex -= 1;
+            // decrease imgIndex's value by 1
+            obj.imgIndex -= 1;
             
             // move the active dot backward
             $(this).siblings('div').find('.current-dot').removeClass('current-dot').prev().addClass('current-dot');
 
             // if the first image is displayed
-            if (picIndex < 0) {
+            if (obj.imgIndex < 0) {
                 // jumpt to the end of the obj.images array
-                picIndex = 2;
+                obj.imgIndex = 2;
 
                 // send the active dot to the end
                 $(this).siblings('div').children().last().addClass('current-dot');
             }
 
             // update the appropriate card image
-            $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[picIndex]);
+            $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[obj.imgIndex]);
         }
     });
 });
@@ -156,23 +161,23 @@ $('.next').on('click', function() {
     // if the object's name matches a .card-image id
     slides.forEach(obj => {
         if (obj.name == $(this).siblings('img').attr('id')) {
-            // increase picIndex's value by 1
-            picIndex += 1;
+            // increase imgIndex's value by 1
+            obj.imgIndex += 1;
 
             // move the active dot forward
             $(this).siblings('div').find('.current-dot').removeClass('current-dot').next().addClass('current-dot');
 
             // if the last image is displayed
-            if (picIndex == obj.images.length) {
+            if (obj.imgIndex == obj.images.length) {
                 // jump to the beginning of the obj.images array
-                picIndex = 0;
+                obj.imgIndex = 0;
 
                 // send the active dot back to the beginning
                 $(this).siblings('div').children().first().addClass('current-dot');
             }
 
             // update the appropriate card image
-            $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[picIndex]);
+            $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[obj.imgIndex]);
         }
     });
 });
@@ -199,32 +204,34 @@ $('.carousel-dot').on('click', function() {
     // ensure there's only one "current dot" in each carousel
     $(this).addClass('current-dot').siblings().removeClass('current-dot');
 
-    // update picIndex, to prevent issues with prev/next arrows
-    if (dotIndex === 0 ||
-        dotIndex === 3 ||
-        dotIndex === 6 ||
-        dotIndex === 9 ||
-        dotIndex === 12 ||
-        dotIndex === 15) {
-            // for each carousel's first dot, picIndex is 0
-            picIndex = 0;
-    } else if (dotIndex === 1 ||
-        dotIndex === 4 ||
-        dotIndex === 7 ||
-        dotIndex === 10 ||
-        dotIndex === 13 ||
-        dotIndex === 16) {
-            // for each carousel's middle dot, picIndex is 1
-            picIndex = 1;
-    } else if (dotIndex === 2 ||
-        dotIndex === 5 ||
-        dotIndex === 8 ||
-        dotIndex === 11 ||
-        dotIndex === 14 ||
-        dotIndex === 17) {
-            // for each carousel's last dot, picIndex is 2
-            picIndex = 2;
-    }
+    // update imgIndex, to prevent issues with prev/next arrows
+    slides.forEach(obj => {
+        if (dotIndex === 0 ||
+            dotIndex === 3 ||
+            dotIndex === 6 ||
+            dotIndex === 9 ||
+            dotIndex === 12 ||
+            dotIndex === 15) {
+                // for each carousel's first dot, imgIndex is 0
+                obj.imgIndex = 0;
+        } else if (dotIndex === 1 ||
+            dotIndex === 4 ||
+            dotIndex === 7 ||
+            dotIndex === 10 ||
+            dotIndex === 13 ||
+            dotIndex === 16) {
+                // for each carousel's middle dot, imgIndex is 1
+                obj.imgIndex = 1;
+        } else if (dotIndex === 2 ||
+            dotIndex === 5 ||
+            dotIndex === 8 ||
+            dotIndex === 11 ||
+            dotIndex === 14 ||
+            dotIndex === 17) {
+                // for each carousel's last dot, imgIndex is 2
+                obj.imgIndex = 2;
+        }
+    });
 });
 
 // ------------------
