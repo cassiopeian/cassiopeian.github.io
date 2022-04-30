@@ -152,6 +152,8 @@ $('.prev').on('click', function() {
 
             // update the appropriate card image
             $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[obj.imgIndex]);
+
+            console.log(`${obj.name} index is ${obj.imgIndex}`);
         }
     });
 });
@@ -178,6 +180,8 @@ $('.next').on('click', function() {
 
             // update the appropriate card image
             $(this).siblings('img').fadeTo(250, .7).fadeTo(100, 1).attr('src', obj.images[obj.imgIndex]);
+
+            console.log(`${obj.name} index is ${obj.imgIndex}`);
         }
     });
 });
@@ -191,6 +195,11 @@ $('.carousel-dot').on('click', function() {
     
     // grab the index of whichever dot is clicked
     let dotIndex = dotsArr.indexOf(this);
+
+    // group the dotIndex positions
+    let firstDotArr = [0, 3, 6, 9, 12, 15];
+    let middleDotArr = [1, 4, 7, 10, 13, 16];
+    let lastDotArr = [2, 5, 8, 11, 14, 17];
     
     // loop through each object in the slides array
     slides.forEach(obj => {
@@ -204,33 +213,34 @@ $('.carousel-dot').on('click', function() {
     // ensure there's only one "current dot" in each carousel
     $(this).addClass('current-dot').siblings().removeClass('current-dot');
 
-    // update imgIndex, to prevent issues with prev/next arrows
+    // update obj.imgIndex, so there are no discrepancies with the prev/next functions
     slides.forEach(obj => {
-        if (dotIndex === 0 ||
-            dotIndex === 3 ||
-            dotIndex === 6 ||
-            dotIndex === 9 ||
-            dotIndex === 12 ||
-            dotIndex === 15) {
-                // for each carousel's first dot, imgIndex is 0
-                obj.imgIndex = 0;
-        } else if (dotIndex === 1 ||
-            dotIndex === 4 ||
-            dotIndex === 7 ||
-            dotIndex === 10 ||
-            dotIndex === 13 ||
-            dotIndex === 16) {
-                // for each carousel's middle dot, imgIndex is 1
-                obj.imgIndex = 1;
-        } else if (dotIndex === 2 ||
-            dotIndex === 5 ||
-            dotIndex === 8 ||
-            dotIndex === 11 ||
-            dotIndex === 14 ||
-            dotIndex === 17) {
-                // for each carousel's last dot, imgIndex is 2
-                obj.imgIndex = 2;
+        // group the dotIndex positions by object, so the correct object can be targeted, when the imgIndex is updated, below
+        if (dotIndex <= 2) {
+            obj = karteikarten;
+        } else if (dotIndex >= 3 && dotIndex <= 5) {
+            obj = aisudoku;
+        } else if (dotIndex >= 6 && dotIndex <= 8) {
+            obj = caseConverter;
+        } else if (dotIndex >= 9 && dotIndex <= 11) {
+            obj = dogAgeCalculator;
+        } else if (dotIndex >= 12 && dotIndex <= 14) {
+            obj = memoryGame;
+        } else if (dotIndex >= 15 && dotIndex <= 17) {
+            obj = magicEightBall;
         }
+
+        // based on the given dot's position
+        if (firstDotArr.includes(dotIndex) === true) {
+            // update the object's imageIndex
+            obj.imgIndex = 0;
+        } else if (middleDotArr.includes(dotIndex) === true) {
+            obj.imgIndex = 1;
+        } else if (lastDotArr.includes(dotIndex) === true) {
+            obj.imgIndex = 2;
+        }
+
+        console.log(`${obj.name} index is ${obj.imgIndex}`);
     });
 });
 
