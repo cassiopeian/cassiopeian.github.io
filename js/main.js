@@ -276,3 +276,11 @@ $('.parallelogram').on('mouseenter', function() {
     }, {queue: false,
         duration: 1000});
 });
+
+$('.parallelogram').on('mouseleave', function() {
+    // reset all parallelograms to an equal width
+    $('.parallelogram').animate({
+        width: '20%'
+    }, {queue: false,
+        duration: 1000});
+});
