@@ -266,3 +266,13 @@ $('.parallelogram').on('click', function() {
         }, 2000);
     }
 });
+
+$('.parallelogram').on('mouseenter', function() {
+    // expand the one being hovered over, and shrink the rest
+    $(this).animate({
+        width: '60%'
+    }, 1000).siblings().animate({
+        width: '10%'
+    }, {queue: false,
+        duration: 1000});
+});
