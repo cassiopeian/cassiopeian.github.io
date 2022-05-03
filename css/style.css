@@ -6,6 +6,7 @@ STYLE SECTIONS
 4. ABOUT
 5. PROJECTS
 -. PATTERNS 
+-. MENUS
 6. FOOTER
 7. MEDIA QUERIES
 -------------- */
@@ -478,6 +479,17 @@ h3 a {
 #pattern5 {
     background-image: url('../images/patterns/dog-things-desaturated.png');
     background-size: 170px;
+}
+
+/* -. MENUS */
+
+#menus {
+    margin: 7rem 0;
+}
+#menus-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* 6. FOOTER */
