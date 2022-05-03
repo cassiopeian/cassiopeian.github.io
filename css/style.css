@@ -491,6 +491,19 @@ h3 a {
     align-items: center;
     justify-content: space-evenly;
 }
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(37, 53, 91);
+    margin: 1rem auto;
+}
+.menu img {
+    width: 60px;
+}
 
 /* 6. FOOTER */
 
