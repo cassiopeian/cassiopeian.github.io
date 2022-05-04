@@ -511,6 +511,20 @@ h3 a {
     justify-content: space-between;
     height: 35px;
 }
+.rotate-top-cue {
+    transform: rotate(327deg);
+    transform-origin: top right;
+    transition: transform 1s linear;
+}
+.hide-middle-cue {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+.rotate-bottom-cue {
+    transform: rotate(28deg);
+    transform-origin: bottom right;
+    transition: transform 1s linear;
+}
 #menus button {
     display: block;
     font-family: ff-speak-web, sans-serif;
