@@ -504,6 +504,13 @@ h3 a {
 .menu img {
     width: 60px;
 }
+#cues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
 #menus button {
     display: block;
     font-family: ff-speak-web, sans-serif;
