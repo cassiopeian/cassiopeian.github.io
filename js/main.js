@@ -284,3 +284,10 @@ $('.parallelogram').on('mouseleave', function() {
     }, {queue: false,
         duration: 1000});
 });
+
+$('#sloth').hover(
+    function() {
+    $(this).attr('src', './images/menus/sloth-menu-hover.svg');
+}, function() {
+    $(this).attr('src', './images/menus/sloth-menu.svg');
+});
