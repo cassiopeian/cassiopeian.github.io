@@ -300,3 +300,12 @@ $('#sloth-hover').on('click', function() {
         $('#sloth').attr('src', './images/menus/sloth-menu.svg');
     }, 800); 
 });
+
+// recreate hover effect, when highlighters hover button is clicked
+$('#highlighters-hover').on('click', function() {
+    $('#highlighter-pens').css('transform', 'translateX(6.5px)');
+
+    setTimeout(function() {
+        $('#highlighter-pens').css('transform', 'translateX(-6.5px)');
+    }, 1000);
+});
