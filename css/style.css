@@ -501,7 +501,8 @@ h3 a {
     background-color: rgb(37, 53, 91);
     margin: 1rem auto;
 }
-.menu img {
+.menu img,
+#highlighters {
     width: 60px;
 }
 #cues {
@@ -524,6 +525,19 @@ h3 a {
     transform: rotate(28deg);
     transform-origin: bottom right;
     transition: transform 1s linear;
+}
+#highlighter-pens {
+    position: absolute;
+    transition: transform 1s;
+}
+@media (hover: hover) {
+    #highlighter-pens:hover {
+        transform: translateX(6.5px);
+    }
+}
+#highlighter-marks {
+    height: 29.45px;
+    width: unset;
 }
 #menus button {
     display: block;
