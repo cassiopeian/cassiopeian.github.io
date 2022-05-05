@@ -291,3 +291,12 @@ $('#sloth').hover(
 }, function() {
     $(this).attr('src', './images/menus/sloth-menu.svg');
 });
+
+// recreate hover effect, when sloth hover button is clicked
+$('#sloth-hover').on('click', function() {
+    $('#sloth').attr('src', './images/menus/sloth-menu-hover.svg');
+    
+    setTimeout(function() {
+        $('#sloth').attr('src', './images/menus/sloth-menu.svg');
+    }, 800); 
+});
