@@ -537,7 +537,7 @@ h3 a {
 }
 @media (hover: hover) {
     #highlighter-pens:hover {
-        transform: translateX(6.5px);
+        transform: translateX(6.5px) !important;
     }
 }
 #highlighter-marks {
