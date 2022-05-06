@@ -301,6 +301,24 @@ $('#sloth-hover').on('click', function() {
     }, 800); 
 });
 
+$('#cues-click, #cues').on('click', function() {
+    if ($('#cues-click').html() === 'Reset') {
+        // update button text
+        $('#cues-click').html('Click');
+        // remove the pool cue transformations
+        $('#top-cue').removeClass('rotate-top-cue');
+        $('#middle-cue').removeClass('hide-middle-cue');
+        $('#bottom-cue').removeClass('rotate-bottom-cue');
+    } else {
+        // update button text
+        $('#cues-click').html('Reset');
+        // add the pool cue transformations
+        $('#top-cue').addClass('rotate-top-cue');
+        $('#middle-cue').addClass('hide-middle-cue');
+        $('#bottom-cue').addClass('rotate-bottom-cue');
+    }
+});
+
 // recreate hover effect, when highlighters hover button is clicked
 $('#highlighters-hover').on('click', function() {
     // if the close x is displayed
