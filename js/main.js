@@ -303,11 +303,28 @@ $('#sloth-hover').on('click', function() {
 
 // recreate hover effect, when highlighters hover button is clicked
 $('#highlighters-hover').on('click', function() {
-    $('#highlighter-pens').css('transform', 'translateX(6.5px)');
+    // if the close x is displayed
+    if ($('#highlighters').css('display') === 'none') {
+        // rotate the background gradient
+        $('#highlighters-x-bg').css('backgroundImage', 'linear-gradient(rgb(237, 79, 84), rgb(237, 160, 117))');
+        // spin the x
+        $('#highlighters-x').css({'transform': 'rotate(360deg)', 'transition': 'transform 2s'});
 
-    setTimeout(function() {
-        $('#highlighter-pens').css('transform', 'translateX(-6.5px)');
-    }, 1000);
+        // reset the gradient and the x, after a second
+        setTimeout(function() {
+            $('#highlighters-x-bg').css('backgroundImage', 'linear-gradient(rgb(236, 123, 82), rgb(239, 82, 84))');
+
+            $('#highlighters-x').css({'transform': '', 'transition': 'transform 0s'});
+        }, 1000);
+    } else {
+        // slide the highlighter pens
+        $('#highlighter-pens').css('transform', 'translateX(6.5px)');
+    
+        // reset the highlighters, after a second
+        setTimeout(function() {
+            $('#highlighter-pens').css('transform', 'translateX(-6.5px)');
+        }, 1000);
+    }
 });
 
 $('#highlighters-click, #highlighters-menu').on('click', function() {
