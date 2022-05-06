@@ -309,3 +309,19 @@ $('#highlighters-hover').on('click', function() {
         $('#highlighter-pens').css('transform', 'translateX(-6.5px)');
     }, 1000);
 });
+
+$('#highlighters-click, #highlighters-menu').on('click', function() {
+    // if the button says "reset"
+    if ($('#highlighters-click').html() === 'Reset') {
+        // revert button text back to "click"
+        $('#highlighters-click').html('Click');
+        // restore the highlighters menu
+        $('#highlighters').css('display', 'block');
+        // hide the close x
+        $('#highlighters-x-bg').css('display', 'none');
+    } else {
+        $('#highlighters-click').html('Reset');
+        $('#highlighters').css('display', 'none');
+        $('#highlighters-x-bg').css('display', 'flex');
+    }
+});
