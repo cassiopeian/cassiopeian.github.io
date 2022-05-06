@@ -322,7 +322,7 @@ $('#highlighters-hover').on('click', function() {
     
         // reset the highlighters, after a second
         setTimeout(function() {
-            $('#highlighter-pens').css('transform', 'translateX(-6.5px)');
+            $('#highlighter-pens').css('transform', '');
         }, 1000);
     }
 });
