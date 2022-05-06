@@ -556,7 +556,7 @@ h3 a {
     cursor: pointer;
 }
 #highlighters-x-bg:hover {
-    background-image: linear-gradient(rgb(237, 79, 84), rgb(237, 160, 117));
+    background-image: linear-gradient(rgb(237, 79, 84), rgb(237, 160, 117)) !important;
 }
 #highlighters-x {
     display: block;
@@ -567,8 +567,8 @@ h3 a {
     color: rgb(245, 245, 245);
 }
 #highlighters-x:hover {
-    transform: rotate(360deg);
-    transition: transform 2s;
+    transform: rotate(360deg) !important;
+    transition: transform 2s !important;
 }
 #menus button {
     display: block;
