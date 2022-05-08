@@ -301,6 +301,14 @@ $('#sloth-hover').on('click', function() {
     }, 800); 
 });
 
+$('#cues-hover').on('click', function() {
+    $('#cues').css('filter', 'brightness(1.5)');
+
+    setTimeout(function() {
+        $('#cues').css('filter', '');
+    }, 800);
+});
+
 $('#cues-click, #cues').on('click', function() {
     if ($('#cues-click').html() === 'Reset') {
         // update button text
