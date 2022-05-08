@@ -518,6 +518,11 @@ h3 a {
     justify-content: space-between;
     height: 35px;
 }
+@media (hover: hover) {
+    #cues:hover {
+        filter: brightness(1.5) !important;
+    }
+}
 .rotate-top-cue {
     transform: rotate(327deg);
     transform-origin: top right;
