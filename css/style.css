@@ -522,6 +522,19 @@ h3 a {
     align-items: center;
     justify-content: center;
 }
+#monstera-x span {
+    display: block;
+    font-family: monospace;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+#monstera-x img {
+    position: absolute;
+    width: 100%;
+    opacity: .6;
+}
 #cues {
     display: flex;
     flex-direction: column;
