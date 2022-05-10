@@ -294,11 +294,19 @@ $('#sloth').hover(
 
 // recreate hover effect, when sloth hover button is clicked
 $('#sloth-hover').on('click', function() {
-    $('#sloth').attr('src', './images/menus/sloth-menu-hover.svg');
-    
-    setTimeout(function() {
-        $('#sloth').attr('src', './images/menus/sloth-menu.svg');
-    }, 800); 
+    if ($('#sloth-click').html() === 'Reset') {
+        $('#monstera-x img').attr('src', './images/menus/bitten-monstera.svg').css('opacity', '1');
+
+        setTimeout(function() {
+            $('#monstera-x img').attr('src', './images/menus/monstera.svg').css('opacity', '.6');
+        }, 800);
+    } else {
+        $('#sloth').attr('src', './images/menus/sloth-menu-hover.svg');
+        
+        setTimeout(function() {
+            $('#sloth').attr('src', './images/menus/sloth-menu.svg');
+        }, 800); 
+    }
 });
 
 $('#sloth-click, #sloth-menu').on('click', function() {
