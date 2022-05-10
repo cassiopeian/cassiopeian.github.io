@@ -292,6 +292,14 @@ $('#sloth').hover(
     $(this).attr('src', './images/menus/sloth-menu.svg');
 });
 
+$('#monstera-x').hover(
+    function() {
+        $('#monstera-x img').attr('src', './images/menus/bitten-monstera.svg').css('opacity', '1');
+    }, function() {
+        $('#monstera-x img').attr('src', './images/menus/monstera.svg').css('opacity', '.6');
+    }
+);
+
 // recreate hover effect, when sloth hover button is clicked
 $('#sloth-hover').on('click', function() {
     if ($('#sloth-click').html() === 'Reset') {
