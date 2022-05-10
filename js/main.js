@@ -301,6 +301,25 @@ $('#sloth-hover').on('click', function() {
     }, 800); 
 });
 
+$('#sloth-click, #sloth-menu').on('click', function() {
+    if ($('#sloth-click').html() === 'Reset') {
+        // update button text
+        $('#sloth-click').html('Click');
+        // hide the close x
+        $('#monstera-x').css('display', 'none');
+        // display the sloth menu
+        $('#sloth').css('display', 'block');
+
+    } else {
+        // update button text
+        $('#sloth-click').html('Reset');
+        // hide the sloth menu
+        $('#sloth').css('display', 'none');
+        // display the close x
+        $('#monstera-x').css('display', 'flex');
+    }
+});
+
 $('#cues-hover').on('click', function() {
     $('#cues').css('filter', 'brightness(1.5)');
 
