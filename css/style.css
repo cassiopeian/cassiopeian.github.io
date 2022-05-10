@@ -504,7 +504,8 @@ h3 a {
     margin: 1rem auto;
 }
 .menu img,
-#highlighters {
+#highlighters,
+#monstera-x {
     width: 60px;
 }
 .menu img,
@@ -514,6 +515,12 @@ h3 a {
 #sloth {
     position: absolute;
     top: 30%;
+}
+#monstera-x {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
 #cues {
     display: flex;
