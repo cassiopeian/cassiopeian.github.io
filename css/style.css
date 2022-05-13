@@ -505,7 +505,9 @@ h3 a {
 }
 .menu img,
 #highlighters,
-#monstera-x {
+#monstera-x,
+#squid-popup,
+#squid-popup span {
     width: 60px;
 }
 .menu img,
@@ -597,6 +599,31 @@ h3 a {
 #highlighters-x:hover {
     transform: rotate(360deg) !important;
     transition: transform 2s !important;
+}
+#squid-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: inherit;
+}
+#waves {
+    position: absolute;
+    z-index: 2;
+}
+#squid-popup span {
+    display: block;
+    height: 27px;
+    bottom: 0;
+    background-color: inherit;
+    position: absolute;
+    z-index: 1;
+}
+#squid {
+    display: none;
+    width: auto;
+    height: 34px;
+    position: relative;
 }
 #menus button {
     display: block;
