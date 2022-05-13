@@ -403,3 +403,22 @@ $('#highlighters-click, #highlighters-menu').on('click', function() {
         $('#highlighters-x-bg').css('display', 'flex');
     }
 });
+
+$('#squid-popup').hover(
+    function() {
+        // make the squid peek above the waves
+        $('#squid').css('display', 'block').animate({
+            top: '-25px'
+        }, 800);
+    }, function() {
+        // make him sink back down
+        $('#squid').animate({
+            top: ''
+        }, 800);
+
+        // hide the top of the squid, after he sinks down
+        setTimeout(function() {
+            $('#squid').css('display', 'none');
+        }, 800);
+    }
+);
