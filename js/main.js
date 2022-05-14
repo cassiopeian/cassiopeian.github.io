@@ -422,3 +422,15 @@ $('#squid-popup').hover(
         }, 800);
     }
 );
+
+$('#waves-click, #waves-menu').on('click', function() {
+    if ($('#waves-click').html() === 'Reset') {
+        $('#waves-click').html('Click');
+        $('#squid-popup').css('display', 'flex');
+        $('#tridents-x').css('display', 'none');
+    } else {
+        $('#waves-click').html('Reset');
+        $('#tridents-x').css('display', 'block');
+        $('#squid-popup').css('display', 'none');
+    }
+});
