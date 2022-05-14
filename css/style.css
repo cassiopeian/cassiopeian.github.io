@@ -625,6 +625,23 @@ h3 a {
     height: 34px;
     position: relative;
 }
+#tridents-x {
+    display: none;
+}
+#tridents {
+    width: 45px;
+}
+#tridents-x p {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    color: rgb(217, 241, 249);
+    margin: 0;
+}
 #menus button {
     display: block;
     font-family: ff-speak-web, sans-serif;
