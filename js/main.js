@@ -407,12 +407,12 @@ $('#highlighters-click, #highlighters-menu').on('click', function() {
 $('#squid-popup').hover(
     function() {
         // make the squid peek above the waves
-        $('#squid').css('display', 'block').animate({
+        $('#squid').css('display', 'block').stop(true).animate({
             top: '-25px'
         }, 800);
     }, function() {
         // make him sink back down
-        $('#squid').animate({
+        $('#squid').stop(true).animate({
             top: ''
         }, 800);
 
