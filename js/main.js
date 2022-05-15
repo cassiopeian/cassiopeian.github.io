@@ -418,6 +418,16 @@ $('#squid-popup').hover(
     }
 );
 
+$('#tridents-x').hover(
+    function() {
+        // make the close text brighter
+        $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
+    }, function() {
+        // return to the original text color
+        $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
+    }
+);
+
 $('#waves-click, #waves-menu').on('click', function() {
     if ($('#waves-click').html() === 'Reset') {
         $('#waves-click').html('Click');
