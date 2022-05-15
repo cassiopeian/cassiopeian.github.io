@@ -428,6 +428,26 @@ $('#tridents-x').hover(
     }
 );
 
+$('#waves-hover').on('click', function() {
+    if ($('#waves-click').html() === 'Reset') {
+        $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
+
+        setTimeout(function() {
+            $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
+        }, 800);
+    } else {
+        $('#squid').show().stop(true).animate({
+            top: '-25px'
+        }, 800);
+
+        setTimeout(function() {
+            $('#squid').stop(true).animate({
+                top: ''
+            }, 800).fadeOut('fast');
+        }, 1500);
+    }
+});
+
 $('#waves-click, #waves-menu').on('click', function() {
     if ($('#waves-click').html() === 'Reset') {
         $('#waves-click').html('Click');
