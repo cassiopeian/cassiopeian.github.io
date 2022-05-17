@@ -424,6 +424,12 @@ $('#tridents-x').hover(
         $('#left-trident').addClass('rotate-trident-l');
         $('#right-trident').addClass('rotate-trident-r');
 
+        // reveal and release the bubbles
+        $('#bubbles').show().stop(true).delay(500).animate({
+            opacity: 1,
+            bottom: '40px'
+        }, 1000).fadeOut('fast');
+
         // make the close text brighter
         $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
     }, function() {
@@ -437,6 +443,9 @@ $('#tridents-x').on('animationend', function() {
     // cross the tridents back into an x
     $('#left-trident').removeClass('rotate-trident-l');
     $('#right-trident').removeClass('rotate-trident-r');
+
+    // reset the bubbles animation
+    $('#bubbles').removeAttr('style');
 });
 
 $('#waves-hover').on('click', function() {
