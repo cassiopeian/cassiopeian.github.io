@@ -420,6 +420,10 @@ $('#squid-popup').hover(
 
 $('#tridents-x').hover(
     function() {
+        // part the tridents, with keyframes animations 
+        $('#left-trident').addClass('rotate-trident-l');
+        $('#right-trident').addClass('rotate-trident-r');
+
         // make the close text brighter
         $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
     }, function() {
@@ -427,6 +431,13 @@ $('#tridents-x').hover(
         $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
     }
 );
+
+// when the trident animations end
+$('#tridents-x').on('animationend', function() {
+    // cross the tridents back into an x
+    $('#left-trident').removeClass('rotate-trident-l');
+    $('#right-trident').removeClass('rotate-trident-r');
+});
 
 $('#waves-hover').on('click', function() {
     if ($('#waves-click').html() === 'Reset') {
