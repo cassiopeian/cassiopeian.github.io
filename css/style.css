@@ -629,7 +629,40 @@ h3 a {
     display: none;
 }
 #tridents {
+    position: relative;
+}
+#left-trident {
     width: 45px;
+    position: absolute;
+    z-index: 1;
+}
+.rotate-trident-l {
+    -webkit-animation: rotate-trident-l 2s ease-in;
+    animation: rotate-trident-l 2s ease-in;
+}
+@-webkit-keyframes rotate-trident-l {
+    0% {
+        transform: '';
+    }
+    50% {
+        transform: rotate(45deg);
+        transform-origin: bottom right;
+    }
+    100% {
+        transform: '';
+    }
+}
+@keyframes rotate-trident-l {
+    0% {
+        transform: '';
+    }
+    50% {
+        transform: rotate(45deg);
+        transform-origin: bottom right;
+    }
+    100% {
+        transform: '';
+    }
 }
 #tridents-x p {
     font-family: ff-speak-web, sans-serif;
