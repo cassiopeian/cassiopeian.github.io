@@ -664,6 +664,38 @@ h3 a {
         transform: '';
     }
 }
+#right-trident {
+    width: 45px;
+    position: relative;
+}
+.rotate-trident-r {
+    -webkit-animation: rotate-trident-r 2s ease-in;
+    animation: rotate-trident-r 2s ease-in;
+}
+@-webkit-keyframes rotate-trident-r {
+    0% {
+        transform: '';
+    }
+    50% {
+        transform: rotate(-45deg);
+        transform-origin: bottom left;
+    }
+    100% {
+        transform: '';
+    }
+}
+@keyframes rotate-trident-r {
+    0% {
+        transform: '';
+    }
+    50% {
+        transform: rotate(-45deg);
+        transform-origin: bottom left;
+    }
+    100% {
+        transform: '';
+    }
+}
 #tridents-x p {
     font-family: ff-speak-web, sans-serif;
     font-weight: 700;
