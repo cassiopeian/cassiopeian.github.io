@@ -450,11 +450,24 @@ $('#tridents-x').on('animationend', function() {
 
 $('#waves-hover').on('click', function() {
     if ($('#waves-click').html() === 'Reset') {
+        $('#left-trident').addClass('rotate-trident-l');
+        $('#right-trident').addClass('rotate-trident-r');
+
+        $('#bubbles').show().stop(true).delay(500).animate({
+            opacity: 1,
+            bottom: '40px'
+        }, 1000).fadeOut('fast');
+
         $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
 
         setTimeout(function() {
+            $('#left-trident').removeClass('rotate-trident-l');
+            $('#right-trident').removeClass('rotate-trident-r');
+
+            $('#bubbles').removeAttr('style');
+            
             $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
-        }, 800);
+        }, 2000);
     } else {
         $('#squid').show().stop(true).animate({
             top: '-25px'
