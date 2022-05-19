@@ -430,10 +430,12 @@ h3 a {
 /* -. PATTERNS */
 
 #patterns {
+    margin: 7rem 0;
+}
+#patterns-wrapper {
     background-image: url('../images/patterns/diamond-sashiko.svg');
     background-size: 100px;
     background-repeat: repeat;
-    margin: 7rem 0;
 }
 #parallelograms-wrapper {
     display: flex;
