@@ -336,7 +336,26 @@ $('#sloth-click, #sloth-menu').on('click', function() {
     }
 });
 
+// nudge the pool cues independently, on hover
+function nudgeCues(cue, wait) {
+    $(cue)
+    .stop(true)
+    .delay(wait)
+    .animate({left: '10px'}, 400)
+    .queue(function() {
+        $(cue).animate({left: '-15px'}, 400).dequeue()
+    })
+    .queue(function() {
+        $(cue).animate({left: ''}, 400).dequeue()
+    })
+    .removeAttr('style');
+};
+
 $('#cues-hover').on('click', function() {
+    nudgeCues('#top-cue', 300);
+    nudgeCues('#middle-cue', 0);
+    nudgeCues('#bottom-cue', 600);
+
     $('#cues').css('filter', 'brightness(1.5)');
 
     setTimeout(function() {
@@ -465,7 +484,7 @@ $('#waves-hover').on('click', function() {
             $('#right-trident').removeClass('rotate-trident-r');
 
             $('#bubbles').removeAttr('style');
-            
+
             $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
         }, 2000);
     } else {
