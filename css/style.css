@@ -547,6 +547,9 @@ h3 a {
     justify-content: space-between;
     height: 35px;
 }
+#cues img {
+    position: relative;
+}
 @media (hover: hover) {
     #cues:hover {
         filter: brightness(1.5) !important;
