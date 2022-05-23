@@ -352,9 +352,21 @@ function nudgeCues(cue, wait) {
 };
 
 $('#cues').on('mouseenter', function() {
-    nudgeCues('#top-cue', 300);
-    nudgeCues('#middle-cue', 0);
-    nudgeCues('#bottom-cue', 600);
+    if ($('#cues-click').html() === 'Reset') {
+        // rotate the top and bottom cues a bit more
+        $('#top-cue').css('transform', 'rotate(322deg)');
+        $('#bottom-cue').css('transform', 'rotate(33deg)');
+
+        setTimeout(function() {
+            // quickly return them to their previous positions
+            $('#top-cue').removeAttr('style');
+            $('#bottom-cue').removeAttr('style');
+        }, 400);
+    } else {
+        nudgeCues('#top-cue', 300);
+        nudgeCues('#middle-cue', 0);
+        nudgeCues('#bottom-cue', 600);
+    }
 });
 
 $('#cues-hover').on('click', function() {
