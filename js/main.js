@@ -351,6 +351,12 @@ function nudgeCues(cue, wait) {
     .removeAttr('style');
 };
 
+$('#cues').on('mouseenter', function() {
+    nudgeCues('#top-cue', 300);
+    nudgeCues('#middle-cue', 0);
+    nudgeCues('#bottom-cue', 600);
+});
+
 $('#cues-hover').on('click', function() {
     nudgeCues('#top-cue', 300);
     nudgeCues('#middle-cue', 0);
