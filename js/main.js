@@ -351,17 +351,21 @@ function nudgeCues(cue, wait) {
     .removeAttr('style');
 };
 
+function scissorX() {
+    // rotate the top and bottom cues a bit more
+    $('#top-cue').css('transform', 'rotate(320deg)');
+    $('#bottom-cue').css('transform', 'rotate(35deg)');
+
+    setTimeout(function() {
+        // quickly return them to their previous positions
+        $('#top-cue').removeAttr('style');
+        $('#bottom-cue').removeAttr('style');
+    }, 400);
+}
+
 $('#cues').on('mouseenter', function() {
     if ($('#cues-click').html() === 'Reset') {
-        // rotate the top and bottom cues a bit more
-        $('#top-cue').css('transform', 'rotate(322deg)');
-        $('#bottom-cue').css('transform', 'rotate(33deg)');
-
-        setTimeout(function() {
-            // quickly return them to their previous positions
-            $('#top-cue').removeAttr('style');
-            $('#bottom-cue').removeAttr('style');
-        }, 400);
+        scissorX();
     } else {
         nudgeCues('#top-cue', 300);
         nudgeCues('#middle-cue', 0);
@@ -370,13 +374,19 @@ $('#cues').on('mouseenter', function() {
 });
 
 $('#cues-hover').on('click', function() {
-    nudgeCues('#top-cue', 300);
-    nudgeCues('#middle-cue', 0);
-    nudgeCues('#bottom-cue', 600);
+    if ($('#cues-click').html() === 'Reset') {
+        scissorX();
+    } else {
+        nudgeCues('#top-cue', 300);
+        nudgeCues('#middle-cue', 0);
+        nudgeCues('#bottom-cue', 600);
+    }
 
+    // make the cues flash brighter
     $('#cues').css('filter', 'brightness(1.5)');
-
+    
     setTimeout(function() {
+        // unset the filter property
         $('#cues').css('filter', '');
     }, 800);
 });
