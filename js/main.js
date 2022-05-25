@@ -82,6 +82,7 @@ $(window).on('scroll', function() {
     let vanishingPoint = $('#hero').height() * .75;
     let headerHeight = $('header').height();
     let projectsTop = Math.floor($('#projects').offset().top) - $(window).scrollTop();
+    let headerColor = $('header').css('backgroundColor');
 
     // if vanishingPoint is below aboutTop
     if (aboutTop < vanishingPoint) {
@@ -128,6 +129,9 @@ $(window).on('scroll', function() {
         $('#constellation').attr('src', './images/stars/constellation.svg');
         constellationGlow();
     }
+
+    // update Safari tab color, as the header color changes
+    $('meta[name="theme-color"]').attr('content', headerColor);
 });
 
 // move project-card slideshow forward
