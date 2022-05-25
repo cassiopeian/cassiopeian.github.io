@@ -110,8 +110,7 @@ h1 a {
     text-decoration: none;
 }
 #hamburger {
-    position: fixed;
-    right: 2rem;
+    position: relative;
     z-index: 5;
     cursor: pointer;
     display: none;
@@ -843,6 +842,12 @@ footer {
 }
 
 @media only screen and (max-width: 415px) {
+
+    /* HEADER */
+
+    header {
+        padding: 0.5rem 1rem;
+    }
 
     /* HERO */
 
