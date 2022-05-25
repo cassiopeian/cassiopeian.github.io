@@ -848,6 +848,9 @@ footer {
     header {
         padding: 0.5rem 1rem;
     }
+    .close-nav {
+        right: 1rem;
+    }
 
     /* HERO */
 
