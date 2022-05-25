@@ -781,7 +781,6 @@ footer {
         position: fixed;
         top: 0;
         left: 100%;
-        background-color: rgb(58, 87, 90);
         background-image: url('../images/backgrounds/bathing-pool.png');
         background-size: cover;
         background-repeat: no-repeat;
