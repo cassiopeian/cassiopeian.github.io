@@ -880,6 +880,7 @@ footer {
 
     #about-wrapper {
         max-width: unset;
+        padding: 0;
     }
 
     /* PATTERNS */
