@@ -29,6 +29,7 @@ body {
     min-height: -webkit-fill-available;
     margin: 0;
     padding: 0;
+    background-color: #ccd7cf;
 }
 .watercolor-splash {
     background-image: url('../images/watercolor-splash.svg');
