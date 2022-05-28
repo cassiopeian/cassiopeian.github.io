@@ -136,10 +136,10 @@ $(window).on('scroll', function() {
     // update Safari address bar color
     if ($('nav').css('position') === 'fixed') {
         // to match the nav's bathing pool bg img
-        $('meta[name="apple-mobile-web-app-status-bar-style"]').attr('content', 'rgb(58, 87, 90');
+        $('body').css('backgroundColor', 'rgb(58, 87, 90');
     } else {
         // or to match the header color
-        $('meta[name="apple-mobile-web-app-status-bar-style"]').attr('content', headerColor);
+        $('body').css('backgroundColor', headerColor);
     }
 });
 
