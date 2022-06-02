@@ -478,20 +478,24 @@ $('#squid-popup').hover(
     }
 );
 
+function releaseBubbles() {
+    // part the tridents, with keyframes animations 
+    $('#left-trident').addClass('rotate-trident-l');
+    $('#right-trident').addClass('rotate-trident-r');
+
+    // reveal and release the bubbles
+    $('#bubbles').show().stop(true).delay(500).animate({
+        opacity: 1,
+        bottom: '40px'
+    }, 1000).fadeOut('fast');
+
+    // make the close text brighter
+    $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
+}
+
 $('#tridents-x').hover(
     function() {
-        // part the tridents, with keyframes animations 
-        $('#left-trident').addClass('rotate-trident-l');
-        $('#right-trident').addClass('rotate-trident-r');
-
-        // reveal and release the bubbles
-        $('#bubbles').show().stop(true).delay(500).animate({
-            opacity: 1,
-            bottom: '40px'
-        }, 1000).fadeOut('fast');
-
-        // make the close text brighter
-        $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
+        releaseBubbles();
     }, function() {
         // return to the original text color
         $('#tridents-x p').css('color', 'rgb(217, 241, 249)');
@@ -510,15 +514,7 @@ $('#tridents-x').on('animationend', function() {
 
 $('#waves-hover').on('click', function() {
     if ($('#waves-click').html() === 'Reset') {
-        $('#left-trident').addClass('rotate-trident-l');
-        $('#right-trident').addClass('rotate-trident-r');
-
-        $('#bubbles').show().stop(true).delay(500).animate({
-            opacity: 1,
-            bottom: '40px'
-        }, 1000).fadeOut('fast');
-
-        $('#tridents-x p').css('color', 'rgb(255, 255, 255)');
+        releaseBubbles();
 
         setTimeout(function() {
             $('#left-trident').removeClass('rotate-trident-l');
