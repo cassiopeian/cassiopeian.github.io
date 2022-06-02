@@ -132,15 +132,6 @@ $(window).on('scroll', function() {
 
     // update Safari tab color, as the header color changes
     $('meta[name="theme-color"]').attr('content', headerColor);
-
-    // update Safari address bar color
-    if ($('nav').css('position') === 'fixed') {
-        // to match the nav's bathing pool bg img
-        $('body').css('backgroundColor', 'rgb(58, 87, 90');
-    } else {
-        // or to match the header color
-        $('body').css('backgroundColor', headerColor);
-    }
 });
 
 // move project-card slideshow forward
