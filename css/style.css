@@ -427,6 +427,10 @@ h3 a {
     text-decoration: none;
     text-transform: uppercase;
 }
+.divider-line {
+    color: rgb(192, 192, 199);
+    padding: 0 .3rem;
+}
 
 /* -. PATTERNS */
 
