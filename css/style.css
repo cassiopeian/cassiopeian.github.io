@@ -391,7 +391,7 @@ h3 a {
 }
 @media (hover: hover) {
     h3 a:hover,
-    .view-code:hover {
+    .github-links:hover {
         opacity: .7;
     }
 }
@@ -411,20 +411,21 @@ h3 a {
     display: flex;
     align-items: center;
     justify-content: start;
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: .75rem;
 }
 .github-logo {
     height: 15px;
     padding-right: .5rem;
 }
-.view-code {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: .75rem;
+.github-links {
     letter-spacing: .05rem;
     color: rgb(73, 110, 165);
     border-bottom: 1px dashed;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* -. PATTERNS */
