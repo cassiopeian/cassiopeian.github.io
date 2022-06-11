@@ -141,10 +141,14 @@ $(window).on('scroll', function() {
     if ($('#patterns').length) {
         let patternsTop = Math.floor($('#patterns').offset().top) - $(window).scrollTop();
 
+        // if the header is over the...
         if (headerHeight > patternsTop) {
             // patterns section: make the header jade green
             updateHeader('rgb(111, 143, 120)', yellowStars);
-        } 
+        } else {
+            // intro section: make the header charcoal grey
+            updateHeader('rgb(32, 30, 30)', blueStars);
+        }
     }
     
     // update Safari tab color, as the header color changes
