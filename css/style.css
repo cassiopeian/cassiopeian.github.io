@@ -47,10 +47,15 @@ h2 {
     letter-spacing: .1rem;
     text-align: center;
 }
-.global-text {
-    color: rgb(78, 93, 126);
+p {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.12rem;
+    letter-spacing: .04rem;
+    line-height: 1.5;
     text-align: justify;
-    letter-spacing: .15rem;
+    color: rgb(78, 93, 126);
 }
 
 /* 2. HEADER  */
