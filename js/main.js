@@ -126,23 +126,14 @@ $(window).on('scroll', function() {
 
         // if the header is over the...
         if (headerHeight > projectsTop) {
-            // projects section: make the header bg color blue
-            $('header').css('backgroundColor', 'rgb(121, 141, 175)');
-            // display the default constellation
-            $('#constellation').attr('src', './images/stars/constellation.svg');
-            constellationGlow();
+            // projects section: make the header periwinkle blue
+            updateHeader('rgb(121, 141, 175)', blueStars);
         } else if (headerHeight > aboutTop) {
-            // about section: make the header bg color olive
-            $('header').css('backgroundColor', 'rgb(106, 120, 86)');
-            // display the yellow constellation
-            $('#constellation').attr('src', './images/stars/yellow-constellation.svg');
-            constellationGlow();
+            // about section: make the header olive green
+            updateHeader('rgb(106, 120, 86)', yellowStars);
         } else {
-            // hero section: make the header bg color charcoal 
-            $('header').css('backgroundColor', 'rgb(32, 30, 30)');
-            // display the default constellation
-            $('#constellation').attr('src', './images/stars/constellation.svg');
-            constellationGlow();
+            // hero section: make the header charcoal grey
+            updateHeader('rgb(32, 30, 30)', blueStars);
         }
     } 
 
