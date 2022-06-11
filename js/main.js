@@ -80,6 +80,8 @@ $('#see-about, #see-projects').on('click', function() {
 $(window).on('scroll', function() {
     let headerHeight = $('header').height();
     let headerColor = $('header').css('backgroundColor');
+    const blueStars = './images/stars/constellation.svg';
+    const yellowStars = './images/stars/yellow-constellation.svg';
 
     function constellationGlow() {
         // play the star-pulse keyframes animation
@@ -89,7 +91,17 @@ $(window).on('scroll', function() {
             // remove the animation, so it can be replayed
             $('#constellation').removeClass('star-pulse');
         }, 2000);
-    }
+    };
+
+    function updateHeader(bgColor, constellationColor) {
+        // set the header's color
+        $('header').css('backgroundColor', bgColor);
+        
+        // set the constellation's color
+        $('#constellation').attr('src', constellationColor);
+        
+        constellationGlow();
+    };
 
     // for elements on the index page
     if ($('#about, #hero, #projects').length) {
