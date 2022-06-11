@@ -142,11 +142,8 @@ $(window).on('scroll', function() {
         let patternsTop = Math.floor($('#patterns').offset().top) - $(window).scrollTop();
 
         if (headerHeight > patternsTop) {
-            // patterns section: make the header bg color jade green
-            $('header').css('backgroundColor', 'rgb(111, 143, 120)');
-            // display the yellow constellation
-            $('#constellation').attr('src', './images/stars/yellow-constellation.svg');
-            constellationGlow();
+            // patterns section: make the header jade green
+            updateHeader('rgb(111, 143, 120)', yellowStars);
         } 
     }
     
