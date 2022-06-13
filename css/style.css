@@ -66,6 +66,7 @@ header {
     justify-content: space-between;
     padding: .5rem 2rem;
     background-color: rgb(32, 30, 30);
+    transition: background-color 1s ease;
     position: fixed;
     top: 0;
     width: 100%;
