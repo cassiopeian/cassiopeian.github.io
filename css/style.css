@@ -439,6 +439,9 @@ h3 a {
 
 /* -. PATTERNS */
 
+.art-page-text {
+    margin: 2.5rem 10% 4rem;
+}
 #patterns {
     margin: 7rem 0;
 }
