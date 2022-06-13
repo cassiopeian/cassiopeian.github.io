@@ -138,11 +138,15 @@ $(window).on('scroll', function() {
     } 
 
     // for elements on the illustration page
-    if ($('#patterns').length) {
+    if ($('#patterns, #menus').length) {
         let patternsTop = Math.floor($('#patterns').offset().top) - $(window).scrollTop();
+        let menusTop = Math.floor($('#menus').offset().top) - $(window).scrollTop();
 
         // if the header is over the...
-        if (headerHeight > patternsTop) {
+        if (headerHeight > menusTop) {
+            // menus section: make the header cerulean blue
+            updateHeader('rgb(30, 109, 147)', yellowStars);
+        } else if (headerHeight > patternsTop) {
             // patterns section: make the header jade green
             updateHeader('rgb(111, 143, 120)', yellowStars);
         } else {
