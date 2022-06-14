@@ -297,13 +297,20 @@ $('.parallelogram').on('click', function() {
 });
 
 $('.parallelogram').on('mouseenter', function() {
+    let shapeName = $(this).attr('id');
+
+    function labelShape(label) {
+        $('#pattern-name').html(label);
+    };
+
     // expand the one being hovered over, and shrink the rest
     $(this).animate({
         width: '60%'
     }, 1000).siblings().animate({
         width: '10%'
     }, {queue: false,
-        duration: 1000});
+        duration: 1000
+    });
 });
 
 $('.parallelogram').on('mouseleave', function() {
