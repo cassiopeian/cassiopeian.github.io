@@ -443,14 +443,6 @@ h3 a {
 .art-page-text {
     margin: 2.5rem 10% 4rem;
 }
-#pattern-name {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-size: .75rem;
-    color: rgb(165, 165, 169);
-    text-transform: uppercase;
-    margin: 1rem 3.5rem;
-}
 #patterns {
     margin: 7rem 0;
 }
@@ -504,6 +496,17 @@ h3 a {
 #pattern5 {
     background-image: url('../images/patterns/dog-things-desaturated.png');
     background-size: 170px;
+}
+#pattern-label-container {
+    height: 1rem;
+}
+#pattern-name {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    color: rgb(165, 165, 169);
+    text-transform: uppercase;
+    margin: 1rem 3.5rem;
 }
 
 /* -. MENUS */
