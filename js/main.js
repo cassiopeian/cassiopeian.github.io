@@ -331,7 +331,11 @@ $('.parallelogram').on('mouseleave', function() {
     $('.parallelogram').animate({
         width: '20%'
     }, {queue: false,
-        duration: 1000});
+        duration: 1000
+    });
+
+    // remove the pattern label
+    $('#pattern-name').html('');
 });
 
 $('#sloth').hover(
