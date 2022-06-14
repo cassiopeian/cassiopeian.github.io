@@ -311,6 +311,19 @@ $('.parallelogram').on('mouseenter', function() {
     }, {queue: false,
         duration: 1000
     });
+
+    // update label below the patterns
+    if (shapeName === 'parallelogram1') {
+        labelShape('Art Deco fans');
+    } else if (shapeName === 'parallelogram2') {
+        labelShape('Art Deco fish scale');
+    } else if (shapeName === 'parallelogram3') {
+        labelShape(`Rubik's Cubes`);
+    } else if (shapeName === 'parallelogram4') {
+        labelShape('Ogee Sunrise');
+    } else if (shapeName === 'parallelogram5') {
+        labelShape('Pupdemonium');
+    }
 });
 
 $('.parallelogram').on('mouseleave', function() {
