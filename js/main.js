@@ -277,6 +277,11 @@ $('.carousel-dot').on('click', function() {
 // ILLUSTRATION PAGE
 // ------------------
 
+let bannerBuffer = $('header').outerHeight(true);
+
+// add margin above the banner, to offset the header
+$('#illustration-banner').css('margin-top', bannerBuffer);
+
 $('.parallelogram').on('click', function() {
     // if only one pattern is displayed
     if ($(this).siblings().css('width') === '0px') {
