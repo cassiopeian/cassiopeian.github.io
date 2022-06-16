@@ -438,6 +438,12 @@ h3 a {
     padding: 0 .3rem;
 }
 
+/* ILLUSTRATION BANNER */
+
+#illustration-banner {
+    width: 100%;
+}
+
 /* -. PATTERNS */
 
 .art-page-text {
