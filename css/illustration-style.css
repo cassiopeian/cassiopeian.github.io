@@ -376,3 +376,8 @@ main section {
         color: rgb(187, 192, 197);
     }
 }
+#albums-wrapper {
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
