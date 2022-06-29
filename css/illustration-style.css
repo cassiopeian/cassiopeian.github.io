@@ -381,3 +381,11 @@ main section {
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
+#albums-wrapper img {
+    width: 400px;
+    margin: 20px 20px 20px 0;
+    scroll-snap-align: start;
+}
+#albums-wrapper img:last-child {
+    margin-right: 0;
+}
