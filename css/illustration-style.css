@@ -358,3 +358,21 @@ main section {
     background-color: rgb(15, 14, 14);
     margin-bottom: 2rem;
 }
+#album-carousel button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(247, 247, 247);
+    background-color: inherit;
+    border: none;
+    user-select: none;
+    position: relative;
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+@media (hover:hover) {
+    #album-carousel button:hover {
+        color: rgb(187, 192, 197);
+    }
+}
