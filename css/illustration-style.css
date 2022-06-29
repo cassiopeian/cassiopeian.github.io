@@ -4,6 +4,7 @@ STYLE SECTIONS
 2. MAIN
 3. PATTERNS 
 4. MENUS
+5. ALBUMS
 -------------- */
 
 /* 1. ILLUSTRATION BANNER */
@@ -347,4 +348,13 @@ main section {
 #menus button:active {
     color: rgb(255, 255, 255);
     background-color: rgb(37, 53, 91);
+}
+
+/* 5. ALBUMS */
+
+#album-carousel {
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 14, 14);
+    margin-bottom: 2rem;
 }
