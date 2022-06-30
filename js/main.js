@@ -141,9 +141,13 @@ $(window).on('scroll', function() {
     if ($('#patterns, #menus').length) {
         let patternsTop = Math.floor($('#patterns').offset().top) - $(window).scrollTop();
         let menusTop = Math.floor($('#menus').offset().top) - $(window).scrollTop();
+        let albumsTop = Math.floor($('#albums').offset().top) - $(window).scrollTop();
 
         // if the header is over the...
-        if (headerHeight > menusTop) {
+        if (headerHeight > albumsTop) {
+            // albums section: make the header burnt sienna
+            updateHeader('rgb(203, 64, 20)', blueStars);
+        } else if (headerHeight > menusTop) {
             // menus section: make the header cerulean blue
             updateHeader('rgb(30, 109, 147)', yellowStars);
         } else if (headerHeight > patternsTop) {
