@@ -569,14 +569,4 @@ footer {
         max-width: unset;
         padding: 0;
     }
-
-    /* PATTERNS */
-
-    #patterns-wrapper {
-        background-size: 40px;
-    }
-    .parallelogram,
-    .pattern {
-        transform: unset;
-    }
 }
