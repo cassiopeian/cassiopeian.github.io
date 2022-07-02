@@ -600,3 +600,19 @@ $('#waves-click, #waves-menu').on('click', function() {
         $('#squid-popup').css('display', 'none');
     }
 });
+
+$('#right').on('click', function() {
+    // scroll the second album into view
+    albumImg.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
+    });
+    
+    // move on to the next album
+    albumImg = albumImg.nextElementSibling;
+
+    // at the end, send the carousel back to the beginning
+    if (albumImg === document.querySelector('#albums-wrapper img:nth-child(6)')) {
+        albumImg = document.querySelector('#albums-wrapper img:nth-child(1)')
+    }
+});
