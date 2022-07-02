@@ -282,6 +282,8 @@ $('.carousel-dot').on('click', function() {
 // ------------------
 
 let bannerBuffer = $('header').outerHeight(true);
+let albumImg = document.querySelector('.active-album');
+let firstAlbum = document.querySelector('.first-album');
 
 // add margin above the banner, to offset the header
 $('#illustration-banner').css('margin-top', bannerBuffer);
