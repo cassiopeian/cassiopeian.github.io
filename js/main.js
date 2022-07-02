@@ -616,3 +616,11 @@ $('#right').on('click', function() {
         albumImg = document.querySelector('#albums-wrapper img:nth-child(1)')
     }
 });
+
+$('#left').on('click', function() {
+    // scroll back to the beginning of the carousel
+    firstAlbum.scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start'
+    });
+});
