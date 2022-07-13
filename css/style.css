@@ -258,6 +258,20 @@ ul {
     margin: .5rem auto;
     cursor: default;
 }
+#scroll-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 204, 204);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#scroll-indicator img {
+    width: 20px;
+    padding-top: 3px;
+}
 
 /* 4. ABOUT */
 
