@@ -255,7 +255,7 @@ ul {
     border-radius: 5px;
     width: fit-content;
     padding: .6rem 1.3rem;
-    margin: .5rem auto;
+    margin: .5rem auto 1rem;
     cursor: default;
 }
 #scroll-indicator {
