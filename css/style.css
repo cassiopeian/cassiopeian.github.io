@@ -273,6 +273,12 @@ ul {
     width: 20px;
     padding-top: 3px;
 }
+.point-down {
+    -webkit-animation: pointDown 1s ease-in;
+    -webkit-animation-iteration-count: 2;
+    animation: pointDown 1s ease-in;
+    animation-iteration-count: 2;
+}
 
 /* 4. ABOUT */
 
