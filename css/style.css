@@ -279,6 +279,18 @@ ul {
     animation: pointDown 1s ease-in;
     animation-iteration-count: 2;
 }
+@-webkit-keyframes pointDown {
+    0% {top: 0px;}
+    25% {top: 8px;}
+    75% {top: -5px;}
+    100% {top: 0px;}
+}
+@keyframes pointDown {
+    0% {top: 0px;}
+    25% {top: 8px;}
+    75% {top: -5px;}
+    100% {top: 0px;}
+}
 
 /* 4. ABOUT */
 
