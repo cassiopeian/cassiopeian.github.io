@@ -89,6 +89,11 @@ function animateScrollIndicator() {
 
 animateScrollIndicator();
 
+// animate the scroll indicator, if it's hovered over
+$('#scroll-indicator').on('mouseenter', function() {
+    animateScrollIndicator();
+});
+
 $(window).on('scroll', function() {
     let headerHeight = $('header').height();
     let headerColor = $('header').css('backgroundColor');
