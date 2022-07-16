@@ -117,6 +117,7 @@ $(window).on('scroll', function() {
 
     // for elements on the index page
     if ($('#about, #hero, #projects').length) {
+        let hero = $('#hero');
         let aboutTop = $('#about').offset().top - $(window).scrollTop();
         let vanishingPoint = $('#hero').height() * .75;
         let projectsTop = Math.floor($('#projects').offset().top) - $(window).scrollTop();
@@ -134,6 +135,11 @@ $(window).on('scroll', function() {
         } else {
             // reveal the #hero-wrapper
             $('#hero-wrapper').css('opacity', 1);
+        }
+
+        // if the index page is scrolled all the way up
+        if (hero.scrollHeight === hero.clientHeight) {
+            animateScrollIndicator();
         }
 
         // if the header is over the...
