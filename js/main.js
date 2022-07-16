@@ -77,13 +77,17 @@ $('#see-about, #see-projects').on('click', function() {
     $('nav').removeAttr('style');
 });
 
-// animate the hero section's scroll indicator
-$('#scroll-indicator').addClass('point-down');
+function animateScrollIndicator() {
+    // animate the hero section's scroll indicator
+    $('#scroll-indicator').addClass('point-down');
 
-// reset the pointDown keyframes animation
-$('#scroll-indicator').on('animationend', function() {
-    $(this).removeClass('point-down');
-});
+    // reset the pointDown keyframes animation
+    $('#scroll-indicator').on('animationend', function() {
+        $(this).removeClass('point-down');
+    });
+};
+
+animateScrollIndicator();
 
 $(window).on('scroll', function() {
     let headerHeight = $('header').height();
