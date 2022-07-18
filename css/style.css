@@ -487,6 +487,10 @@ footer {
     justify-content: space-between;
     width: 70px;
 }
+.fa-brands {
+    color: rgb(143, 139, 124);
+    font-size: 25px;
+}
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
