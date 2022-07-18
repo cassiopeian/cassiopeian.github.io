@@ -481,6 +481,12 @@ footer {
     background-color: rgb(52, 52, 52);
     padding: 20px 30px;
 }
+#social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
