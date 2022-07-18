@@ -490,6 +490,7 @@ footer {
 .fa-brands {
     color: rgb(143, 139, 124);
     font-size: 25px;
+    cursor: pointer;
 }
 #copyright {
     font-family: 'Nunito', sans-serif;
