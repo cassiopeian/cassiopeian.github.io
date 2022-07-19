@@ -492,6 +492,11 @@ footer {
     font-size: 25px;
     cursor: pointer;
 }
+@media (hover: hover) {
+    .fa-brands:hover {
+        opacity: .5;
+    }
+}
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
