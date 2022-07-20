@@ -456,12 +456,8 @@ h3 a {
     background-color: rgb(50, 65, 78);
     border-radius: 0 0 8px 8px;
 }
-.github-logo {
-    height: 15px;
-    padding-right: .5rem;
-}
 .github-link-line i {
-    font-size: 10px;
+    font-size: 1.1rem;
     color: rgb(154, 213, 183);
     padding-right: .5rem;
 }
