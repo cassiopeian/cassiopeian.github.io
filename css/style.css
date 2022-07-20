@@ -495,13 +495,13 @@ footer {
     justify-content: space-between;
     width: 70px;
 }
-.fa-brands {
+#social-wrapper a i {
     color: rgb(143, 139, 124);
     font-size: 25px;
     cursor: pointer;
 }
 @media (hover: hover) {
-    .fa-brands:hover {
+    #social-wrapper a i:hover {
         opacity: .5;
     }
 }
