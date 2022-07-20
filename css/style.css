@@ -460,6 +460,11 @@ h3 a {
     height: 15px;
     padding-right: .5rem;
 }
+.github-link-line i {
+    font-size: 10px;
+    color: rgb(154, 213, 183);
+    padding-right: .5rem;
+}
 .github-links {
     letter-spacing: .05rem;
     color: rgb(73, 110, 165);
