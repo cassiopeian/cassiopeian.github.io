@@ -401,14 +401,14 @@ ul {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
-.card-text-wrapper {
-    padding: 1.4rem;
-}
 .card-text-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+}
+.card-text {
+    padding: 1.4rem 1.4rem 0 1.4rem;
 }
 #tallest-card {
     height: fit-content;
@@ -452,6 +452,9 @@ h3 a {
     font-weight: 800;
     font-style: normal;
     font-size: .75rem;
+    padding: 1.4rem;
+    background-color: rgb(50, 65, 78);
+    border-radius: 0 0 8px 8px;
 }
 .github-logo {
     height: 15px;
