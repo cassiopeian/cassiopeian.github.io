@@ -499,6 +499,13 @@ footer {
         opacity: .5;
     }
 }
+#footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 4rem auto 1rem;
+}
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
