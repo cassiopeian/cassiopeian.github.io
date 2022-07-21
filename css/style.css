@@ -486,11 +486,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70px;
+    width: fit-content;
 }
 #social-wrapper a i {
     color: rgb(143, 139, 124);
     font-size: 25px;
+    padding: 0 10px;
     cursor: pointer;
 }
 @media (hover: hover) {
