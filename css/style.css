@@ -502,6 +502,7 @@ footer {
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
+    text-align: center;
     color: rgb(143, 139, 124);
     margin: 0;
 }
