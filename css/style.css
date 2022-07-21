@@ -517,6 +517,11 @@ footer {
     margin: 0;
     cursor: default;
 }
+#footer-logo img {
+    display: block;
+    width: 5rem;
+    padding: 0 5px 0 2px;
+}
 #copyright {
     font-family: 'Nunito', sans-serif;
     font-size: .8rem;
