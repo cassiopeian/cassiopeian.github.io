@@ -492,7 +492,7 @@ footer {
 #social-wrapper a i {
     color: rgb(143, 139, 124);
     font-size: 45px;
-    padding: 0 10px;
+    padding: 0 20px;
     cursor: pointer;
 }
 @media (hover: hover) {
