@@ -384,6 +384,9 @@ main section {
     overflow: auto;
     scroll-snap-type: x mandatory;
 }
+#albums-wrapper::-webkit-scrollbar {
+    display: none;
+}
 #albums-wrapper img {
     width: 40%;
     margin: 20px 20px 20px 0;
