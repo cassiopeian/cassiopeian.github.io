@@ -568,7 +568,8 @@ footer {
         margin-top: 15%;
         z-index: 7;
     }
-    .nav-links a {
+    .nav-links a,
+    .nav-links a:visited {
         display: block;
         font-size: 2rem;
         text-transform: lowercase;
