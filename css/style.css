@@ -312,6 +312,11 @@ ul {
     opacity: 0;
     top: 30px;
 }
+#about-flex {
+    display: flex;
+    align-content: space-around;
+    width: 100%
+}
 
 /* 5. PROJECTS */
 
