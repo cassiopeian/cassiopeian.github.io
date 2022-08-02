@@ -664,4 +664,7 @@ footer {
         max-width: unset;
         padding: 0;
     }
+    #about-flex {
+        flex-direction: column-reverse;
+    }
 }
