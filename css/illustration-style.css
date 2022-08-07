@@ -394,6 +394,13 @@ main section {
 #albums-wrapper img:last-child {
     margin-right: 0;
 }
+#albums-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 auto;
+}
 
 /* 6. MEDIA QUERIES */
 
