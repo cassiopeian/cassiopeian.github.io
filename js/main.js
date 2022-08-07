@@ -628,6 +628,7 @@ $('#right').on('click', function() {
     // scroll the second album into view
     albumImg.scrollIntoView({
         behavior: 'smooth',
+        block: 'nearest',
         inline: 'start'
     });
     
@@ -644,6 +645,7 @@ $('#left').on('click', function() {
     // scroll back to the beginning of the carousel
     firstAlbum.scrollIntoView({
         behavior: 'smooth',
+        block: 'nearest',
         inline: 'start'
     });
 });
