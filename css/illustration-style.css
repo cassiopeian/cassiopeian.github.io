@@ -379,6 +379,12 @@ main section {
 .album:last-child {
     margin-right: 0;
 }
+.album-blurb {
+    background-color: rgb(249, 244, 237);
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+}
 #albums-nav {
     display: flex;
     align-items: center;
