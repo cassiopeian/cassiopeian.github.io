@@ -636,8 +636,8 @@ $('#right').on('click', function() {
     albumImg = albumImg.nextElementSibling;
 
     // at the end, send the carousel back to the beginning
-    if (albumImg === document.querySelector('#albums-wrapper img:nth-child(6)')) {
-        albumImg = document.querySelector('#albums-wrapper img:nth-child(1)')
+    if (albumImg === document.querySelector('.album:nth-child(6)')) {
+        albumImg = document.querySelector('.album:nth-child(1)')
     }
 });
 
