@@ -368,12 +368,15 @@ main section {
 #albums-wrapper::-webkit-scrollbar {
     display: none;
 }
-#albums-wrapper img {
-    width: 40%;
+.album {
+    width: 35vw;
     margin: 20px 20px 20px 0;
     scroll-snap-align: start;
 }
-#albums-wrapper img:last-child {
+.album img {
+    width: inherit;
+}
+.album:last-child {
     margin-right: 0;
 }
 #albums-nav {
