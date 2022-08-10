@@ -397,6 +397,13 @@ main section {
     color: rgb(163, 159, 153);
     margin: 0;
 }
+.fa-circle-info,
+.fa-spotify {
+    font-size: 20px;
+    background-color: rgb(27, 24, 24);
+    border-radius: 50%;
+    margin-left: 8px;
+}
 #albums-nav {
     display: flex;
     align-items: center;
