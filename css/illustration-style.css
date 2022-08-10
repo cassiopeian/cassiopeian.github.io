@@ -380,9 +380,12 @@ main section {
     margin-right: 0;
 }
 .album-blurb {
-    background-color: rgb(249, 244, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
     width: 100%;
-    padding: 1rem;
+    padding: 0 1rem;
     margin: 0 auto;
 }
 #albums-nav {
