@@ -388,6 +388,15 @@ main section {
     padding: 0 1rem;
     margin: 0 auto;
 }
+.album-blurb p {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .03rem;
+    color: rgb(163, 159, 153);
+    margin: 0;
+}
 #albums-nav {
     display: flex;
     align-items: center;
