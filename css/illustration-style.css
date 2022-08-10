@@ -404,6 +404,12 @@ main section {
     border-radius: 50%;
     margin-left: 8px;
 }
+.fa-circle-info {
+    color: rgb(249, 244, 237);
+}
+.fa-spotify {
+    color: rgb(30, 207, 95);
+}
 #albums-nav {
     display: flex;
     align-items: center;
