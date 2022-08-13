@@ -455,6 +455,7 @@ main section {
     box-shadow: 0 4px 8px 0 rgba(121, 35, 4, 0.671);
     border-radius: 8px;
     margin: 0 auto;
+    padding: 1rem 1.3rem;
 }
 #close-modal {
     display: block;
