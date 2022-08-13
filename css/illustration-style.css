@@ -436,6 +436,17 @@ main section {
         color: rgb(187, 192, 197);
     }
 }
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    padding: 10% 0 0 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.342);
+}
 
 /* 6. MEDIA QUERIES */
 
