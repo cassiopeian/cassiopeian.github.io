@@ -649,3 +649,8 @@ $('#left').on('click', function() {
         inline: 'start'
     });
 });
+
+$('#close-modal').on('click', function() {
+    // hide the album-info popup
+    $('#modal').css('display', 'none');
+});
