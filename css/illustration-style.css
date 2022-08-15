@@ -483,4 +483,11 @@ main section {
     .pattern {
         transform: unset;
     }
+
+    /* ALBUMS */
+
+    .album {
+        width: 100vw;
+        margin-right: 0;
+    }
 }
