@@ -665,5 +665,10 @@ const albumBlurbs = [
         name: 'fatale-info',
         title: `Manic Pixie Kinda '60s Femme Fatale`,
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+    },
+    {
+        name: 'out-info',
+        title: 'Let Me Out',
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     }
 ];
