@@ -682,3 +682,24 @@ const albumBlurbs = [
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     }
 ];
+
+$('.fa-circle-info').on('click', function() {
+    let albumTitle = $('<h2></h2>');
+    let albumInfo = $('<p class="art-page-text"></p>');
+
+    // loop through the albumBlurbs albums
+    albumBlurbs.forEach(album => {
+        // if an album's name property matches the ID of the clicked info icon
+        if (album.name === $(this).attr('id')) {
+            // set that album title in an h2 element
+            $(albumTitle).text(album.title);
+            // set that album info in a paragraph element
+            $(albumInfo).text(album.info);
+            // populate the info popup with that information
+            $('#modal-box').append(albumTitle, albumInfo);
+        }
+    });
+
+    // display the popup
+    $('#modal').css('display', 'block');
+});
