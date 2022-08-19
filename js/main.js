@@ -650,11 +650,6 @@ $('#left').on('click', function() {
     });
 });
 
-$('#close-modal').on('click', function() {
-    // hide the album-info popup
-    $('#modal').css('display', 'none');
-});
-
 const albumBlurbs = [
     {
         name: 'cadet-info',
@@ -702,4 +697,12 @@ $('.fa-circle-info').on('click', function() {
 
     // display the popup
     $('#modal').css('display', 'block');
+});
+
+$('#close-modal').on('click', function() {
+    // hide the album-info popup
+    $('#modal').css('display', 'none');
+
+    //clear the popup's info
+    $('#modal-box').children('h2, p').detach();
 });
