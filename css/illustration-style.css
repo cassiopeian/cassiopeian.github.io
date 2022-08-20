@@ -478,6 +478,11 @@ main section {
     width: 30%;
     box-shadow: -15px -12px 0 0px rgb(222, 183, 21);
 }
+#modal-box h2 {
+    text-align: left;
+    text-transform: lowercase;
+    margin: 0 0 0 2.5rem;
+}
 
 /* 6. MEDIA QUERIES */
 
