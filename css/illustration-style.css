@@ -481,7 +481,9 @@ main section {
 #modal-box h2 {
     text-align: left;
     text-transform: lowercase;
+    line-height: 1;
     margin: 0 0 0 2.5rem;
+    padding-bottom: 1rem;
 }
 #modal-box p {
     width: 80%;
