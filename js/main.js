@@ -712,5 +712,6 @@ $('#close-modal').on('click', function() {
     $('#modal').css('display', 'none');
 
     //clear the popup's info
-    $('#modal-box').children('h2, p').detach();
+    $('#modal-box div').children().detach();
+    $('#modal-box').children('p').detach();
 });
