@@ -483,6 +483,14 @@ main section {
     text-transform: lowercase;
     margin: 0 0 0 2.5rem;
 }
+#modal-box p {
+    width: 80%;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: rgb(222, 183, 21);
+    margin: 2rem auto;
+    padding: 2rem 0;
+}
 
 /* 6. MEDIA QUERIES */
 
