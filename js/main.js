@@ -654,6 +654,7 @@ const albumBlurbs = [
     {
         name: 'cadet-info',
         title: 'Space Cadet',
+        src: './images/albums/space-cadet.svg',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     },
     {
@@ -679,6 +680,7 @@ const albumBlurbs = [
 ];
 
 $('.fa-circle-info').on('click', function() {
+    let albumThumbnail = $('<img src="" />');
     let albumTitle = $('<h2></h2>');
     let albumInfo = $('<p class="art-page-text"></p>');
 
@@ -686,12 +688,17 @@ $('.fa-circle-info').on('click', function() {
     albumBlurbs.forEach(album => {
         // if an album's name property matches the ID of the clicked info icon
         if (album.name === $(this).attr('id')) {
+            // set the album thumbnail
+            $(albumThumbnail).attr('src', album.src);
             // set that album title in an h2 element
             $(albumTitle).text(album.title);
             // set that album info in a paragraph element
             $(albumInfo).text(album.info);
-            // populate the info popup with that information
-            $('#modal-box').append(albumTitle, albumInfo);
+
+            // populate the popup's img and title
+            $('#modal-box div').append(albumThumbnail, albumTitle);
+            // populate the info popup's blurb 
+            $('#modal-box').append(albumInfo);
         }
     });
 
