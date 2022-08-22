@@ -655,7 +655,7 @@ const albumBlurbs = [
         name: 'cadet-info',
         title: 'Space Cadet',
         src: './images/albums/space-cadet.svg',
-        borders: 'rgb(181, 69, 28)',
+        color: 'rgb(181, 69, 28)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     },
     {
@@ -705,8 +705,10 @@ $('.fa-circle-info').on('click', function() {
             // populate the info popup's blurb 
             $('#modal-box').append(albumInfo);
 
+            //set the thumbnail's box-shadow property
+            $('#modal-box img').css('boxShadow', `-15px -12px 0px 0px ${album.color}`);
             // set the border color
-            $('#modal-box p').css('borderColor', album.borders);
+            $('#modal-box p').css('borderColor', album.color);
         }
     });
 
