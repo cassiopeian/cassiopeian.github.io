@@ -655,6 +655,7 @@ const albumBlurbs = [
         name: 'cadet-info',
         title: 'Space Cadet',
         src: './images/albums/space-cadet.svg',
+        borders: 'rgb(181, 69, 28)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     },
     {
@@ -703,6 +704,9 @@ $('.fa-circle-info').on('click', function() {
             $('#modal-box div').append(albumThumbnail, albumTitle);
             // populate the info popup's blurb 
             $('#modal-box').append(albumInfo);
+
+            // set the border color
+            $('#modal-box p').css('borderColor', album.borders);
         }
     });
 
