@@ -655,7 +655,7 @@ const albumBlurbs = [
         name: 'cadet-info',
         title: 'Space Cadet',
         src: './images/albums/space-cadet.svg',
-        color: 'rgb(181, 69, 28)',
+        color: 'rgb(216, 157, 136)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     },
     {
