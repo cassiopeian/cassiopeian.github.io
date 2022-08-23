@@ -676,6 +676,7 @@ const albumBlurbs = [
         name: 'venus-info',
         title: 'Five Petals of Venus',
         src: './images/albums/fpov_kairras.png',
+        color: 'rgb(140, 150, 187)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     },
     {
