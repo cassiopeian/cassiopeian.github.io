@@ -683,6 +683,7 @@ const albumBlurbs = [
         name: 'gfy-info',
         title: 'GFY',
         src: './images/albums/get-bent.svg',
+        color: 'rgb(154, 196, 198)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
     }
 ];
