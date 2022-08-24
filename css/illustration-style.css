@@ -468,6 +468,11 @@ main section {
     margin: 0;
     cursor: pointer;
 }
+@media (hover:hover) {
+    #close-modal:hover {
+        color: rgba(163, 159, 153, 0.75);
+    }
+}
 #modal-box div {
     display: flex;
     align-items: flex-end;
