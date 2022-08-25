@@ -459,7 +459,7 @@ main section {
 }
 #close-modal {
     display: block;
-    text-align: right;
+    float: right;
     font-family: ff-speak-web, sans-serif;
     font-weight: 700;
     font-style: normal;
