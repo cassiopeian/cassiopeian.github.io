@@ -497,6 +497,16 @@ main section {
     margin: 2rem auto;
     padding: 2rem 0;
 }
+.spotify-link {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.12rem;
+    letter-spacing: .04rem;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgb(108, 118, 139);
+}
 
 /* 6. MEDIA QUERIES */
 
