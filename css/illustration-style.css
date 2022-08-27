@@ -508,6 +508,11 @@ a.spotify-link {
     text-decoration: none;
     border-bottom: 10px solid;
 }
+.spotify-link p {
+    border-bottom: 10px solid;
+    border-top: none !important;
+    padding: 0 0 2rem 0 !important;
+}
 
 /* 6. MEDIA QUERIES */
 
