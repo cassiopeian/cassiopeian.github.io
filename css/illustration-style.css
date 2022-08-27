@@ -492,9 +492,8 @@ main section {
 #modal-box p {
     width: 80%;
     border-top: 10px solid;
-    border-bottom: 10px solid;
     margin: 2rem auto;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
 }
 .spotify-link {
     font-family: ff-speak-web, sans-serif;
