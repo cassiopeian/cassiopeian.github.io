@@ -498,7 +498,9 @@ main section {
 a.spotify-link {
     text-decoration: none;
 }
-.spotify-link p {
+a.spotify-link p {
+    text-transform: uppercase;
+    color: rgb(108, 118, 139);
     border-bottom: 10px solid;
     border-top: none !important;
     padding: 0 0 2rem 0 !important;
