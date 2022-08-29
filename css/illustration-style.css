@@ -473,7 +473,7 @@ main section {
         color: rgba(163, 159, 153, 0.75);
     }
 }
-#modal-box div {
+#modal-head {
     display: flex;
     align-items: flex-end;
     width: 75%;
