@@ -505,6 +505,8 @@ main section {
     margin: 0 5px 0 0;
 }
 a.spotify-link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
 }
 a.spotify-link p {
