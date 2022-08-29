@@ -499,6 +499,11 @@ main section {
 #modal-box p {
     margin: 0 0 1rem 0;
 }
+.spotify-link .fa-spotify {
+    display: inline;
+    background-color: transparent;
+    margin: 0 5px 0 0;
+}
 a.spotify-link {
     text-decoration: none;
 }
