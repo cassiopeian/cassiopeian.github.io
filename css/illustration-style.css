@@ -489,6 +489,13 @@ main section {
     margin: 0 0 0 2.5rem;
     padding-bottom: 1rem;
 }
+#modal-text {
+    width: 80%;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    padding: 2rem 0;
+    margin: 0 auto 2rem;
+}
 #modal-box p {
     width: 80%;
     border-top: 10px solid;
