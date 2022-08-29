@@ -705,14 +705,14 @@ $('.fa-circle-info').on('click', function() {
             $(albumInfo).text(album.info);
 
             // populate the popup's img and title
-            $('#modal-box div').append(albumThumbnail, albumTitle);
+            $('#modal-head').append(albumThumbnail, albumTitle);
             // populate the info popup's blurb 
-            $('#modal-box').append(albumInfo);
+            $('#modal-text').append(albumInfo);
 
             //set the thumbnail's box-shadow property
             $('#modal-box img').css('boxShadow', `-15px -12px 0px 0px ${album.color}`);
             // set the border color
-            $('#modal-box p').css('borderColor', album.color);
+            $('#modal-text').css('borderColor', album.color);
         }
     });
 
