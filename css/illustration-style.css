@@ -510,11 +510,11 @@ a.spotify-link {
     text-decoration: none;
 }
 a.spotify-link p {
+    display: inline;
     text-transform: uppercase;
     color: rgb(108, 118, 139);
-    border-bottom: 10px solid;
-    border-top: none !important;
-    padding: 0 0 2rem 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px dashed !important;
 }
 
 /* 6. MEDIA QUERIES */
