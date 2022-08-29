@@ -656,7 +656,8 @@ const albumBlurbs = [
         title: 'Space Cadet',
         src: './images/albums/space-cadet.svg',
         color: 'rgb(216, 157, 136)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://cassiopeian.github.io/'
     },
     {
         name: 'fatale-info',
@@ -692,6 +693,7 @@ $('.fa-circle-info').on('click', function() {
     let albumThumbnail = $('<img src="" />');
     let albumTitle = $('<h2></h2>');
     let albumInfo = $('<p class="art-page-text"></p>');
+    let spotifyLink = $('<a class="spotify-link" href=""><i class="fa-brands fa-spotify"></i><p>Listen on Spotify</p></a>');
 
     // loop through the albumBlurbs albums
     albumBlurbs.forEach(album => {
@@ -703,11 +705,15 @@ $('.fa-circle-info').on('click', function() {
             $(albumTitle).text(album.title);
             // set that album info in a paragraph element
             $(albumInfo).text(album.info);
+            // set the spotify link
+            $(spotifyLink).attr('href', album.link);
 
             // populate the popup's img and title
             $('#modal-head').append(albumThumbnail, albumTitle);
             // populate the info popup's blurb 
             $('#modal-text').append(albumInfo);
+            // display the spotify link
+            $('#modal-text').append(spotifyLink);
 
             //set the thumbnail's box-shadow property
             $('#modal-box img').css('boxShadow', `-15px -12px 0px 0px ${album.color}`);
