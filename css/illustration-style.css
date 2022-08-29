@@ -518,6 +518,7 @@ a.spotify-link p {
 }
 @media (hover:hover) {
     a.spotify-link p:hover {
+        color: rgb(163 170 184);
         border-bottom: 1px solid rgb(30, 208, 95) !important;
     }
 }
