@@ -508,6 +508,7 @@ a.spotify-link {
     display: flex;
     align-items: center;
     text-decoration: none;
+    width: fit-content;
 }
 a.spotify-link p {
     display: inline;
