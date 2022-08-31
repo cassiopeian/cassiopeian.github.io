@@ -420,8 +420,10 @@ main section {
     margin: 0 auto;
 }
 #album-carousel button {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
     color: rgb(247, 247, 247);
     background-color: inherit;
     border: none;
