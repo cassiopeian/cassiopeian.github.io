@@ -632,13 +632,14 @@ $('#right').on('click', function() {
         inline: 'start'
     });
     
-    // move on to the next album
-    albumImg = albumImg.nextElementSibling;
-
-    // at the end, send the carousel back to the beginning
-    if (albumImg === document.querySelector('.album:nth-child(6)')) {
-        albumImg = document.querySelector('.album:nth-child(1)')
-    }
+    // if the last album is displayed 
+    if (albumImg === document.querySelector('.album:last-child')) {
+        // send the carousel back to the beginning
+        albumImg = document.querySelector('.album:first-child');
+    } else {
+        // move on to the next album
+        albumImg = albumImg.nextElementSibling;
+    }    
 });
 
 $('#left').on('click', function() {
