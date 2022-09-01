@@ -356,8 +356,10 @@ ul {
 }
 .prev, 
 .next {
-    font-weight: bold;
-    font-size: 1.125rem;
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
     color: rgb(154, 213, 183);
     background-color: inherit;
     border: none;
@@ -365,8 +367,8 @@ ul {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
-    padding: .5rem;
+    margin-top: -40px;
+    padding: 0 .3rem;
     cursor: pointer;
     transition: 0.3s ease;
 }
