@@ -658,7 +658,7 @@ const albumBlurbs = [
         src: './images/albums/space-cadet.svg',
         color: 'rgb(216, 157, 136)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
-        link: 'https://cassiopeian.github.io/'
+        link: 'https://open.spotify.com/playlist/3RXsLWC9GPv8AubYyqNCH8?si=d4b747309e404ee5'
     },
     {
         name: 'fatale-info',
