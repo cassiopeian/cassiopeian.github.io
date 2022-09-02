@@ -694,7 +694,7 @@ $('.fa-circle-info').on('click', function() {
     let albumThumbnail = $('<img src="" />');
     let albumTitle = $('<h2></h2>');
     let albumInfo = $('<p class="art-page-text"></p>');
-    let spotifyLink = $('<a class="spotify-link" href=""><i class="fa-brands fa-spotify"></i><p>Listen on Spotify</p></a>');
+    let spotifyLink = $('<a class="spotify-link" href="" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-spotify"></i><p>Listen on Spotify</p></a>');
 
     // loop through the albumBlurbs albums
     albumBlurbs.forEach(album => {
