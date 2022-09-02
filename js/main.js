@@ -665,7 +665,8 @@ const albumBlurbs = [
         title: `Manic Pixie Kinda '60s Femme Fatale`,
         src: './images/albums/manic-sixties-femme.svg',
         color: 'rgb(238, 214, 141)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://open.spotify.com/playlist/6EsTIAJJFV1tt2j3yFh2KN?si=eb35b7f9fdfd4856'
     },
     {
         name: 'out-info',
