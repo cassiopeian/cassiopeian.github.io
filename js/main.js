@@ -688,7 +688,8 @@ const albumBlurbs = [
         title: 'GFY',
         src: './images/albums/get-bent.svg',
         color: 'rgb(154, 196, 198)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://open.spotify.com/playlist/4oDF0zFDuhKs9qbPz1B4ue?si=b05f67ee396e4649'
     }
 ];
 
