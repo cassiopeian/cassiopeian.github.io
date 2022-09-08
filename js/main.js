@@ -687,7 +687,7 @@ const albumBlurbs = [
         name: 'gfy-info',
         title: 'GFY',
         src: './images/albums/gfy.svg',
-        color: 'rgb(154, 196, 198)',
+        color: 'rgb(126, 156, 124)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
         link: 'https://open.spotify.com/playlist/4oDF0zFDuhKs9qbPz1B4ue?si=d04b31542ffa4cb2'
     },
