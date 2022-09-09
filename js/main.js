@@ -695,7 +695,8 @@ const albumBlurbs = [
         name: 'romcom-info',
         title: 'Rom-com Soundtrack',
         color: 'rgb(232, 168, 176)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://open.spotify.com/playlist/6ZIVn3hqUNVvdSymktczUA?si=161008bb5794407a'
     }
 ];
 
