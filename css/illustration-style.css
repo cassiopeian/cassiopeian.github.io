@@ -547,6 +547,9 @@ a.spotify-link p {
         width: 100vw;
         margin-right: 0;
     }
+    #modal {
+        padding: 10% 0 0 0;
+    }
     #modal-box {
         width: 85%;
     }
