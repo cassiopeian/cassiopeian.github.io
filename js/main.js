@@ -632,14 +632,25 @@ $('#right').on('click', function() {
         inline: 'start'
     });
     
-    // if the last album is displayed 
-    if (albumImg === document.querySelector('.album:last-child')) {
-        // send the carousel back to the beginning
-        albumImg = document.querySelector('.album:first-child');
+    if ($(window).width() <= 415) {
+        // if the last album is displayed 
+        if (albumImg === document.querySelector('.album:last-child')) {
+            // send the carousel back to the beginning
+            albumImg = document.querySelector('.album:first-child');
+        } else {
+            // move on to the next album
+            albumImg = albumImg.nextElementSibling;
+        }
     } else {
         // move on to the next album
         albumImg = albumImg.nextElementSibling;
-    }    
+
+        // if the last album is displayed 
+        if (albumImg === document.querySelector('.album:last-child')) {
+            // send the carousel back to the beginning
+            albumImg = document.querySelector('.album:first-child');
+        }
+    }        
 });
 
 $('#left').on('click', function() {
