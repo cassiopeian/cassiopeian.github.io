@@ -673,7 +673,8 @@ const albumBlurbs = [
         title: 'Let Me Out',
         src: './images/albums/let-me-out.png',
         color: 'rgb(189, 189, 175)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.'
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://open.spotify.com/playlist/731YaL0szk5CXaycZa4bUi?si=b08ebf7b6ee54ed1'
     },
     {
         name: 'venus-info',
