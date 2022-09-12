@@ -688,20 +688,20 @@ const albumBlurbs = [
         link: 'https://open.spotify.com/playlist/731YaL0szk5CXaycZa4bUi?si=b08ebf7b6ee54ed1'
     },
     {
-        name: 'venus-info',
-        title: 'Five Petals of Venus',
-        src: './images/albums/fpov_kairras.png',
-        color: 'rgb(140, 150, 187)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
-        link: 'https://open.spotify.com/album/6laNtjB5mkFMEuhRyP4PM3?si=sjiIjnWXTH-yBmR1gVIwLg'
-    },
-    {
         name: 'gfy-info',
         title: 'GFY',
         src: './images/albums/gfy.svg',
         color: 'rgb(126, 156, 124)',
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
         link: 'https://open.spotify.com/playlist/4oDF0zFDuhKs9qbPz1B4ue?si=d04b31542ffa4cb2'
+    },
+    {
+        name: 'venus-info',
+        title: 'Five Petals of Venus',
+        src: './images/albums/fpov_kairras.png',
+        color: 'rgb(140, 150, 187)',
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        link: 'https://open.spotify.com/album/6laNtjB5mkFMEuhRyP4PM3?si=sjiIjnWXTH-yBmR1gVIwLg'
     },
     {
         name: 'romcom-info',
