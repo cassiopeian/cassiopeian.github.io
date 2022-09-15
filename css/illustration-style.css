@@ -553,4 +553,8 @@ a.spotify-link p {
     #modal-box {
         width: 85%;
     }
+    #modal-box h2 {
+        margin: 0 0 0 1rem;
+        font-size: 1.5rem;
+    }
 }
