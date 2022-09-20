@@ -728,7 +728,7 @@ $('.fa-circle-info').on('click', function() {
             // set that album title in an h2 element
             $(albumTitle).text(album.title);
             // set that album info in a paragraph element
-            $(albumInfo).text(album.info);
+            $(albumInfo).html(album.info);
             // set the spotify link
             $(spotifyLink).attr('href', album.link);
 
