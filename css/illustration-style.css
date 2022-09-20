@@ -501,6 +501,9 @@ main section {
 #modal-box p {
     margin: 0 0 1rem 0;
 }
+.ital {
+    font-style: italic;
+}
 .spotify-link .fa-spotify {
     display: inline;
     background-color: transparent;
