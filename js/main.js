@@ -668,7 +668,7 @@ const albumBlurbs = [
         title: 'Space Cadet',
         src: './images/albums/space-cadet.svg',
         color: 'rgb(216, 157, 136)',
-        info: 'Part space opera, part rock opera—a Spock opera, if you will—SPACE CADET chronicles the misadventures of a once confident, now desperate crew of astronauts. Will they ever make it back to their home planet?',
+        info: 'Part space opera, part rock opera—a Spock opera, if you will—<span class="ital">Space Cadet</span> includes songs from artists like David Bowie, Stevie Nicks, Gorillaz, ELO, Elton John, and Skott.',
         link: 'https://open.spotify.com/playlist/3RXsLWC9GPv8AubYyqNCH8?si=d4b747309e404ee5'
     },
     {
