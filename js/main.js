@@ -692,7 +692,7 @@ const albumBlurbs = [
         title: 'Let Me Out',
         src: './images/albums/let-me-out.png',
         color: 'rgb(189, 189, 175)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        info: 'Transport yourself abroad to (probably?) greener pastures, with this selection of bilingual and foreign-language songs. <span class="ital">Let Me Out</span> includes artists like Calle 13, Rammstein, Haru Nemuri, Kero Kero Bonito, BTS, and Stromae.',
         link: 'https://open.spotify.com/playlist/731YaL0szk5CXaycZa4bUi?si=b08ebf7b6ee54ed1'
     },
     {
