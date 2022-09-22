@@ -55,6 +55,9 @@ p {
     text-align: justify;
     color: rgb(78, 93, 126);
 }
+.nbsp {
+    white-space: nowrap;
+}
 
 /* 2. HEADER  */
 
