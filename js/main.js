@@ -708,7 +708,7 @@ const albumBlurbs = [
         title: 'Five Petals of Venus',
         src: './images/albums/fpov_kairras.png',
         color: 'rgb(140, 150, 187)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        info: `I created this cosmic album cover for KAIRRAS’s debut EP, <span class="ital">Five Petals of Venus</span>. The Seattle-based artist’s exploration of Afro electric funk, released in October 2020, was deemed “very epic . . . and certainly groovy” by Inner Sleeve magazine.`,
         link: 'https://open.spotify.com/album/6laNtjB5mkFMEuhRyP4PM3?si=sjiIjnWXTH-yBmR1gVIwLg'
     }
 ];
