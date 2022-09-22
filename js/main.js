@@ -684,7 +684,7 @@ const albumBlurbs = [
         title: 'Rom-com Soundtrack',
         src: './images/albums/romcom-soundtrack.svg',
         color: 'rgb(232, 168, 176)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        info: `From meet cute to HEA, this playlist pairs songs that have featured in rom-coms and songs that, well, haven’t, but seem as though they could have! This collection includes artists like Whitney Houston, Michelle Branch, Robyn, Fiona Apple, and Selena.`,
         link: 'https://open.spotify.com/playlist/6ZIVn3hqUNVvdSymktczUA?si=161008bb5794407a'
     },
     {
