@@ -700,7 +700,7 @@ const albumBlurbs = [
         title: 'GFY',
         src: './images/albums/gfy.svg',
         color: 'rgb(126, 156, 124)',
-        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore eos earum corrupti tempora deleniti alias. Veritatis eum esse explicabo excepturi neque perferendis quod reprehenderit suscipit quaerat reiciendis, accusamus ad.',
+        info: `We all know people who deserve a gentle suggestion to leave and get better acquainted with themselves. If you can’t tell them, this playlist is for you. Artists include Alkaline Trio, Le Tigre, Ida Maria, Arctic Monkeys, Aesop Rock, and Beastie Boys.`,
         link: 'https://open.spotify.com/playlist/4oDF0zFDuhKs9qbPz1B4ue?si=d04b31542ffa4cb2'
     },
     {
