@@ -508,6 +508,12 @@ main section {
     color: rgb(203, 64, 20);
     text-decoration: underline dashed rgb(255, 165, 0);
 }
+@media (hover:hover) {
+    #modal-box p a:hover {
+        color: rgb(255, 165, 0);
+        text-decoration: underline solid rgb(203, 64, 20);
+    }
+}
 .spotify-link .fa-spotify {
     display: inline;
     background-color: transparent;
