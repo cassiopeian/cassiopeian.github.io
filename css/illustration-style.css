@@ -504,6 +504,10 @@ main section {
 .ital {
     font-style: italic;
 }
+#modal-box p a {
+    color: rgb(203, 64, 20);
+    text-decoration: underline dashed rgb(255, 165, 0);
+}
 .spotify-link .fa-spotify {
     display: inline;
     background-color: transparent;
