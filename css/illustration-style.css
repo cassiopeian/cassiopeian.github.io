@@ -90,11 +90,13 @@ main section {
 
 /* 4. MENUS */
 
-#menus .doodle {
-    background-image: url('../images/patterns/hamburgers.svg');
+.doodle {
     background-repeat: repeat;
     background-size: 95px;
     padding: 4rem 0 2rem 0;
+}
+#menus .doodle {
+    background-image: url('../images/patterns/hamburgers.svg');
 }
 .doodle div {
     width: fit-content;
