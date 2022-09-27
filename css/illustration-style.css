@@ -100,6 +100,7 @@ main section {
 }
 #albums .doodle {
     background-image: url('../images/patterns/audio.svg');
+    background-size: 143px;
 }
 .doodle div {
     width: fit-content;
