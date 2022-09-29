@@ -97,6 +97,7 @@ main section {
 }
 #patterns .doodle {
     background-image: url('../images/patterns/ai-pattern.svg');
+    background-size: 140px;
 }
 #menus .doodle {
     background-image: url('../images/patterns/hamburgers.svg');
