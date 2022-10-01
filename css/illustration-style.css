@@ -572,6 +572,9 @@ a.spotify-link p {
 
     /* MAIN */
 
+    .doodle {
+        padding: 4rem 0;
+    }
     .doodle h2 {
         margin: 0;
     }
