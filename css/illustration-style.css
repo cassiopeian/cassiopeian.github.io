@@ -570,6 +570,12 @@ a.spotify-link p {
 
 @media only screen and (max-width: 415px) {
 
+    /* MAIN */
+
+    .doodle h2 {
+        margin: 0;
+    }
+
     /* PATTERNS */
 
     #patterns-wrapper {
