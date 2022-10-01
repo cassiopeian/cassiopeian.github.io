@@ -19,6 +19,29 @@ STYLE SECTIONS
 main section {
     padding: 4rem 0 0 0;
 }
+.doodle {
+    background-repeat: repeat;
+    background-size: 143px;
+    padding: 4rem 0 2rem 0;
+}
+#patterns .doodle {
+    background-image: url('../images/patterns/ai-pattern.svg');
+    background-size: 140px;
+}
+#menus .doodle {
+    background-image: url('../images/patterns/burger-menu.svg');
+}
+#albums .doodle {
+    background-image: url('../images/patterns/audio.svg');
+}
+.doodle div {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
 
 /* 3. PATTERNS */
 
@@ -90,29 +113,6 @@ main section {
 
 /* 4. MENUS */
 
-.doodle {
-    background-repeat: repeat;
-    background-size: 143px;
-    padding: 4rem 0 2rem 0;
-}
-#patterns .doodle {
-    background-image: url('../images/patterns/ai-pattern.svg');
-    background-size: 140px;
-}
-#menus .doodle {
-    background-image: url('../images/patterns/burger-menu.svg');
-}
-#albums .doodle {
-    background-image: url('../images/patterns/audio.svg');
-}
-.doodle div {
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    padding: 1rem 2rem;
-}
 #menus-wrapper {
     display: flex;
     flex-wrap: wrap;
