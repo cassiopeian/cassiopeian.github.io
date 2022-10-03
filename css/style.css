@@ -37,6 +37,19 @@ body {
     margin: 2rem auto;
     padding: .5rem 2rem;
 }
+.doodle {
+    background-repeat: repeat;
+    background-size: 143px;
+    padding: 4rem 0 2rem 0;
+}
+.doodle div {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
 h2 {
     font-family: chippewa-falls, sans-serif;
     font-weight: 400;
