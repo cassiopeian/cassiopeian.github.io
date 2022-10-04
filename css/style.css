@@ -348,6 +348,9 @@ ul {
     background-size: cover;
     padding: 4rem 1rem;
 }
+#projects .doodle {
+    background-image: url('../images/patterns/projects-pattern.svg');
+}
 #projects-container {
     display: flex;
     align-items: center;
