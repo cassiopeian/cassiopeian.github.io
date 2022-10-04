@@ -351,6 +351,9 @@ ul {
 #projects .doodle {
     background-image: url('../images/patterns/projects-pattern.svg');
 }
+#projects .doodle div {
+    background-image: linear-gradient(185deg, rgb(117, 150, 196) 25%, rgb(131, 152, 213) 60%, rgb(129, 148, 210) 90%);
+}
 #projects-container {
     display: flex;
     align-items: center;
