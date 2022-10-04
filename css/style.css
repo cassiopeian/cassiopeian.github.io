@@ -341,12 +341,12 @@ ul {
 /* 5. PROJECTS */
 
 #projects {
-    background-image: url('../images/backgrounds/peacock.png');
+    background-image: linear-gradient(185deg, rgb(91, 146, 165) 3%, rgb(132, 151, 214) 20%, rgb(35, 47, 87) 40%);
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4rem 1rem;
+    padding: 4rem 0;
 }
 #projects .doodle {
     background-image: url('../images/patterns/projects-pattern.svg');
