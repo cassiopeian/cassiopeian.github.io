@@ -363,6 +363,7 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
     background-image: url('../images/patterns/starry-pattern.png');
+    background-size: 250px;
 }
 .project-card {
     width: 29%;
