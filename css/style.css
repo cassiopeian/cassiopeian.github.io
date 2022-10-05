@@ -364,6 +364,8 @@ ul {
     flex-wrap: wrap;
     background-image: url('../images/patterns/starry-pattern.png');
     background-size: 250px;
+    padding: 0 1rem 4rem 1rem;
+    margin: 4rem 0 0 0;
 }
 .project-card {
     width: 29%;
