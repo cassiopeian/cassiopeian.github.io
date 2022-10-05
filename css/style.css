@@ -362,6 +362,7 @@ ul {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-image: url('../images/patterns/starry-pattern.png');
 }
 .project-card {
     width: 29%;
