@@ -574,6 +574,12 @@ footer {
 
 /* 7. MEDIA QUERIES */
 
+@media only screen and (max-width: 821px) {
+    #projects .doodle div {
+        background-image: linear-gradient(185deg, rgb(93, 147, 167) 25%, rgb(95, 147, 170) 60%, rgb(98, 148, 174) 90%);
+    }
+}
+
 @media only screen and (max-width: 800px) {
 
     /* HEADER */
