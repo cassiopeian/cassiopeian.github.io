@@ -45,6 +45,7 @@ body {
 .doodle div {
     width: fit-content;
     height: fit-content;
+    border: 1px solid transparent;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
