@@ -1,26 +1,29 @@
 /* --------------
 STYLE SECTIONS
-1. ILLUSTRATION BANNER
-2. MAIN
-3. PATTERNS 
-4. MENUS
-5. ALBUMS
-6. MEDIA QUERIES
+1. FONTS
+2. ILLUSTRATION BANNER
+3. MAIN
+4. PATTERNS 
+5. MENUS
+6. ALBUMS
+7. MEDIA QUERIES
 -------------- */
 
-/* 1. ILLUSTRATION BANNER */
+/* 1. FONTS */
+
+/* 2. ILLUSTRATION BANNER */
 
 #illustration-banner {
     width: 100%;
 }
 
-/* 2. MAIN */
+/* 3. MAIN */
 
 main section {
     padding: 4rem 0 0 0;
 }
 
-/* 3. PATTERNS */
+/* 4. PATTERNS */
 
 .art-page-text {
     margin: 2.5rem 10% 4rem;
@@ -74,7 +77,6 @@ main section {
     background-image: url('../images/patterns/ogee-pattern.svg'), linear-gradient(to top, rgb(179, 17, 65), rgb(255, 149, 0));
     background-size: 100px, 100%;
     background-repeat: repeat, no-repeat;
-    
 }
 #pattern5 {
     background-image: url('../images/patterns/dog-things-desaturated.png');
@@ -92,7 +94,7 @@ main section {
     margin: 1rem 3.5rem;
 }
 
-/* 4. MENUS */
+/* 5. MENUS */
 
 #menus .doodle {
     background-image: url('../images/patterns/burger-menu.svg');
@@ -358,7 +360,7 @@ main section {
     background-color: rgb(37, 53, 91);
 }
 
-/* 5. ALBUMS */
+/* 6. ALBUMS */
 
 #albums .doodle {
     background-image: url('../images/patterns/audio.svg');
@@ -553,7 +555,7 @@ a.spotify-link p {
     }
 }
 
-/* 6. MEDIA QUERIES */
+/* 7. MEDIA QUERIES */
 
 @media only screen and (max-width: 415px) {
 
