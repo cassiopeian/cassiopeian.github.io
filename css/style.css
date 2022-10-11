@@ -51,8 +51,12 @@ body {
     margin: 0 auto;
     padding: 1rem 2rem;
 }
-h2 {
+h2,
+h3 a {
     font-family: chippewa-falls, sans-serif;
+    font-style: normal;
+}
+h2 {
     font-weight: 400;
     font-size: 2.5rem;
     color: rgb(23, 86, 86);
@@ -459,9 +463,7 @@ h3 {
     margin: .5rem 0 1rem 0;
 }
 h3 a {
-    font-family: chippewa-falls, sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 1.7rem;
     text-transform: lowercase;
     color: rgb(215, 99, 92);
