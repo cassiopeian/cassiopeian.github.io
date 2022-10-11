@@ -11,6 +11,13 @@ STYLE SECTIONS
 
 /* 1. FONTS */
 
+#pattern-name,
+#highlighters-x {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* 2. ILLUSTRATION BANNER */
 
 #illustration-banner {
@@ -86,8 +93,6 @@ main section {
     height: 1rem;
 }
 #pattern-name {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
     font-size: .75rem;
     color: rgb(165, 165, 169);
     text-transform: uppercase;
@@ -206,9 +211,6 @@ main section {
 }
 #highlighters-x {
     display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 16px;
     color: rgb(245, 245, 245);
 }
