@@ -17,6 +17,15 @@ STYLE SECTIONS
     font-weight: 400;
     font-style: normal;
 }
+#tridents-x p,
+#menus button,
+.album-blurb p,
+#album-carousel button,
+#close-modal {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* 2. ILLUSTRATION BANNER */
 
@@ -324,9 +333,6 @@ main section {
     z-index: 1;
 }
 #tridents-x p {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -336,9 +342,7 @@ main section {
 }
 #menus button {
     display: block;
-    font-family: ff-speak-web, sans-serif;
     font-weight: 800;
-    font-style: normal;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -404,9 +408,6 @@ main section {
     margin: 0 auto;
 }
 .album-blurb p {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 15px;
     letter-spacing: .03rem;
     color: rgb(163, 159, 153);
@@ -434,9 +435,6 @@ main section {
     margin: 0 auto;
 }
 #album-carousel button {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 4rem;
     color: rgb(247, 247, 247);
     background-color: inherit;
@@ -476,9 +474,6 @@ main section {
 #close-modal {
     display: block;
     float: right;
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 1.5rem;
     color: rgb(163, 159, 153);
     margin: 0;
