@@ -56,6 +56,15 @@ h3 a {
     font-family: chippewa-falls, sans-serif;
     font-style: normal;
 }
+p,
+.prev, 
+.next,
+.project-blurb,
+.github-link-line {
+    font-family: ff-speak-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 h2 {
     font-weight: 400;
     font-size: 2.5rem;
@@ -64,9 +73,6 @@ h2 {
     text-align: center;
 }
 p {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 1.12rem;
     letter-spacing: .04rem;
     line-height: 1.5;
@@ -390,9 +396,6 @@ ul {
 }
 .prev, 
 .next {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 3rem;
     color: rgb(154, 213, 183);
     background-color: inherit;
@@ -477,9 +480,6 @@ h3 a {
     }
 }
 .project-blurb {
-    font-family: ff-speak-web, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     font-size: 1.12rem;
     letter-spacing: .01rem;
     line-height: 1.25;
@@ -492,9 +492,7 @@ h3 a {
     display: flex;
     align-items: center;
     justify-content: start;
-    font-family: ff-speak-web, sans-serif;
     font-weight: 800;
-    font-style: normal;
     font-size: .75rem;
     padding: 1.4rem;
     background-color: rgb(50, 65, 78);
