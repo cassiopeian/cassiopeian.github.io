@@ -51,6 +51,15 @@ body {
     margin: 0 auto;
     padding: 1rem 2rem;
 }
+h1,
+#footer-logo p {
+    font-family: shelby, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04rem;
+    text-transform: lowercase;
+    margin: 0;
+}
 h2,
 h3 a {
     font-family: chippewa-falls, sans-serif;
@@ -130,13 +139,7 @@ header {
     }
 }
 h1 {
-    font-family: shelby, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.8rem;
-    letter-spacing: .04rem;
-    text-transform: lowercase;
-    margin: 0;
 }
 h1 a {
     color: rgb(245, 245, 245);
@@ -550,14 +553,8 @@ footer {
     margin: 4rem auto 1rem;
 }
 #footer-logo p {
-    font-family: shelby, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.5rem;
-    letter-spacing: .04rem;
-    text-transform: lowercase;
     color: rgb(143, 139, 124);
-    margin: 0;
     cursor: default;
 }
 #footer-logo img {
