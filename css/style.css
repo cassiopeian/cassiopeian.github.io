@@ -671,6 +671,9 @@ footer {
     .watercolor-splash {
         width: 20rem;
     }
+    .doodle h2 {
+        margin: 0;
+    }
     
     /* HEADER */
 
