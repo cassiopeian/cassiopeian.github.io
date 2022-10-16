@@ -2,11 +2,10 @@
 STYLE SECTIONS
 1. FONTS
 2. ILLUSTRATION BANNER
-3. MAIN
-4. PATTERNS 
-5. MENUS
-6. ALBUMS
-7. MEDIA QUERIES
+3. PATTERNS 
+4. MENUS
+5. ALBUMS
+6. MEDIA QUERIES
 -------------- */
 
 /* 1. FONTS */
@@ -33,13 +32,7 @@ STYLE SECTIONS
     width: 100%;
 }
 
-/* 3. MAIN */
-
-main section {
-    padding: 4rem 0 0 0;
-}
-
-/* 4. PATTERNS */
+/* 3. PATTERNS */
 
 .art-page-text {
     margin: 2.5rem 10% 4rem;
@@ -108,7 +101,7 @@ main section {
     margin: 1rem 3.5rem;
 }
 
-/* 5. MENUS */
+/* 4. MENUS */
 
 #menus .doodle {
     background-image: url('../images/patterns/burger-menu.svg');
@@ -366,7 +359,7 @@ main section {
     background-color: rgb(37, 53, 91);
 }
 
-/* 6. ALBUMS */
+/* 5. ALBUMS */
 
 #albums .doodle {
     background-image: url('../images/patterns/audio.svg');
@@ -552,7 +545,7 @@ a.spotify-link p {
     }
 }
 
-/* 7. MEDIA QUERIES */
+/* 6. MEDIA QUERIES */
 
 @media only screen and (max-width: 415px) {
 
