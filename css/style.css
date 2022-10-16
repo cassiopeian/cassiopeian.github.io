@@ -324,11 +324,7 @@ ul {
 
 #about {
     position: relative;
-    width: 100%;
-    height: auto;
     background-color: rgb(255, 250, 240);
-    box-sizing: border-box;
-    padding: 30px;
 }
 #about-wrapper {
     position: relative;
