@@ -344,6 +344,9 @@ ul {
     opacity: 0;
     top: 30px;
 }
+#about .doodle {
+    background-image: url('../images/patterns/about-pattern.svg');
+}
 #about-flex {
     display: flex;
     align-content: space-around;
