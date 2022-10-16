@@ -347,6 +347,9 @@ ul {
 #about .doodle {
     background-image: url('../images/patterns/about-pattern.svg');
 }
+#about .doodle div {
+    background-color: rgb(255, 250, 240);
+}
 #about-flex {
     display: flex;
     align-content: space-around;
