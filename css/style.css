@@ -465,14 +465,15 @@ ul {
     height: fit-content;
 }
 h3 {
-    margin: .5rem 0 1rem 0;
-}
-h3 a {
     font-weight: 500;
     font-size: 1.7rem;
     text-transform: lowercase;
-    color: rgb(215, 99, 92);
     letter-spacing: .1rem;
+    color: rgb(78, 93, 126);
+    margin: .5rem 0 1rem 0;
+}
+h3 a {
+    color: rgb(215, 99, 92);
     text-decoration: none;
 }
 @media (hover: hover) {
