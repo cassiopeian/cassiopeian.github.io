@@ -327,6 +327,8 @@ ul {
     background-color: rgb(255, 250, 240);
 }
 #about-wrapper {
+    display: flex;
+    align-content: space-around;
     position: relative;
     z-index: 2;
     padding: 0 0 4rem 0;
@@ -340,11 +342,6 @@ ul {
 }
 #about .doodle div {
     background-color: rgb(255, 250, 240);
-}
-#about-flex {
-    display: flex;
-    align-content: space-around;
-    width: 100%
 }
 #portrait {
     width: 40%;
