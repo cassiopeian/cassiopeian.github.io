@@ -1,1 +1,5 @@
-# cassiopeian.github.io
+# Portfolio
+
+## Introduction
+
+ ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
