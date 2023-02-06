@@ -3,6 +3,7 @@
 ## Table of Contents
 
  + [Introduction](#introduction)
+ + [Favicon](#favicon)
 
 ## Introduction
 
