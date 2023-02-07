@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Favicon](#favicon)
+ + [Art Credit](#art-credit)
  + [Tech Specs](#tech-specs)
 
 ## Introduction
