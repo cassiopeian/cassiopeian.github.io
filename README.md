@@ -17,7 +17,11 @@
 
 ## Art Credit
 
- + *Nacht* (detail), Crispijn van de Passe I, 1611&ndash;1637
+ ### *Nacht*
+
+ <img src="images/read-me/credit-nacht.png" style="width: 75%">
+
+ + *Nacht*, Crispijn van de Passe I, 1611&ndash;1637
  + *The Bathing Pool*, Hubert Robert, 1777&ndash;1780
 
 ## Tech Specs
