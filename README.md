@@ -6,6 +6,7 @@
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
      - [*Nacht*](#nacht)
+     - [*The Bathing Pool*](#the-bathing-pool)
  + [Tech Specs](#tech-specs)
 
 ## Introduction
