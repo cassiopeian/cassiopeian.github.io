@@ -23,6 +23,9 @@
  <img src="images/read-me/credit-nacht.png" style="width: 75%">
 
  + *Nacht*, Crispijn van de Passe I, 1611&ndash;1637
+
+ <img src="images/read-me/credit-pool.png" style="width: 75%">
+ 
  + *The Bathing Pool*, Hubert Robert, 1777&ndash;1780
 
 ## Tech Specs
