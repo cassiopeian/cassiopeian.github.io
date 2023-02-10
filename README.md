@@ -23,7 +23,7 @@
 
  <img src="images/read-me/credit-nacht.png" style="width: 75%">
 
- + *Nacht*, Crispijn van de Passe I, 1611&ndash;1637
+ > *Nacht*, Crispijn van de Passe I, 1611&ndash;1637
 
  ### *The Bathing Pool*
 
