@@ -29,7 +29,7 @@
 
  <img src="images/read-me/credit-pool.png" style="width: 75%">
 
- + *The Bathing Pool*, Hubert Robert, 1777&ndash;1780
+ > *The Bathing Pool*, Hubert Robert, 1777&ndash;1780
 
 ## Tech Specs
 
