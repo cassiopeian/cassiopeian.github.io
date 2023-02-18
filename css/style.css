@@ -698,6 +698,7 @@ footer {
     /* ABOUT */
 
     #about-wrapper {
+        flex-direction: column-reverse;
         max-width: unset;
         padding: 0;
     }
