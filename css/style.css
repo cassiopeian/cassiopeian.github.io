@@ -702,6 +702,9 @@ footer {
         max-width: unset;
         padding: 0;
     }
+    #about-wrapper div {
+        padding: 2rem;
+    }
     #portrait {
         width: 70%;
         padding-left: 0;
