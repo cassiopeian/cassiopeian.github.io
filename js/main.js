@@ -132,6 +132,10 @@ $(window).on('scroll', function() {
             // hide the contents of #hero-wrapper
             $('#hero-wrapper').css('opacity', 0);
 
+            $('#about .doodle').animate({
+                opacity: 1
+            }, 1000);
+
             // make the about section slide up and fade in
             $('#about-wrapper').animate({
                 opacity: 1,
