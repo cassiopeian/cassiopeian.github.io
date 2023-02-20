@@ -140,7 +140,7 @@ $(window).on('scroll', function() {
             $('#about-wrapper').animate({
                 opacity: 1,
                 top: 0
-            }, 800);
+            }, 2000);
         } else {
             // reveal the #hero-wrapper
             $('#hero-wrapper').css('opacity', 1);
