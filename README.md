@@ -3,6 +3,7 @@
 ## Table of Contents
 
  + [Introduction](#introduction)
+ + [Album Art](#album-art)
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
      - [*Nacht*](#nacht)
