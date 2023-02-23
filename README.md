@@ -13,6 +13,9 @@
 
  ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
 
+## Album Art
+ <img src="images/read-me/playlist-info.png" style="width: 25%" />
+
 ## Favicon
 
  <img src="images/star-favicon.png" style="width: 25%" />
