@@ -14,6 +14,10 @@
 
  ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
 
+## Projects
+
+ <img src="images/read-me/project-cards.png" style="width: 75%" />
+
 ## Album Art
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
