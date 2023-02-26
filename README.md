@@ -3,6 +3,7 @@
 ## Table of Contents
 
  + [Introduction](#introduction)
+ + [Projects](#projects)
  + [Album Art](#album-art)
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
