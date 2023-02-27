@@ -19,6 +19,10 @@
 
  <img src="images/read-me/project-cards.png" style="width: 75%" />
 
+ ### Project Images
+
+ Use the green arrows on each project card, to scroll through screenshots of notable project features. The three indicators, under the images, can also be used to jump to specific screenshots.
+
 ## Album Art
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
