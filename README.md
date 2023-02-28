@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Projects](#projects)
+     - [Project Images](#project-images)
  + [Album Art](#album-art)
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
