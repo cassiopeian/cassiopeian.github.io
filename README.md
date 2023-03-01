@@ -5,6 +5,7 @@
  + [Introduction](#introduction)
  + [Projects](#projects)
      - [Project Images](#project-images)
+     - [GitHub Links](#github-links)
  + [Album Art](#album-art)
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
