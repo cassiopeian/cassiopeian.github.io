@@ -24,6 +24,10 @@
 
  Use the green arrows on each project card, to scroll through screenshots of notable project features. The three indicators, under the images, can also be used to jump to specific screenshots.
 
+ ### GitHub Links
+
+ To learn more about a project's features, favicon, and more, click the *README* link at the bottom of the card. Click the adjacent project name (or even the project title, at the top of the card), to visit the project.
+
 ## Album Art
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
