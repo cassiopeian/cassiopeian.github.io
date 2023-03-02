@@ -33,6 +33,8 @@
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
 
+ Scroll through the carousel with your trackpad or finger, or use the arrows to navigate.
+
  <img src="images/read-me/playlist-info.png" style="width: 75%" />
 
 ## Favicon
