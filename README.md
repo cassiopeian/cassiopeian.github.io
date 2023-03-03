@@ -33,6 +33,8 @@
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
 
+ I loved to create album art for mixtapes, back in high school. So, I jumped at the opportunity to help, when my friend asked me to design something for her 2020 debut EP, *Five Petals of Venus*. I used Microsoft Word! Since then, I’ve regained access to Adobe CC programs, and I’ve been making art for my Spotify playlists.
+
  Scroll through the carousel with your trackpad or finger, or use the arrows to navigate.
 
  <img src="images/read-me/playlist-info.png" style="width: 75%" />
