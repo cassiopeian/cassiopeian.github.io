@@ -39,6 +39,8 @@
 
  <img src="images/read-me/playlist-info.png" style="width: 75%" />
 
+ To learn more about a playlist, click the *Info* button, under the album cover. 
+
 ## Favicon
 
  <img src="images/star-favicon.png" style="width: 25%" />
