@@ -172,8 +172,8 @@ $(window).on('scroll', function() {
 
         // if the header is over the...
         if (headerHeight > albumsTop) {
-            // albums section: make the header burnt sienna
-            updateHeader('rgb(203, 64, 20)', blueStars);
+            // albums section: make the header aubergine
+            updateHeader('rgb(133, 73, 96)', blueStars);
         } else if (headerHeight > menusTop) {
             // menus section: make the header cerulean blue
             updateHeader('rgb(30, 109, 147)', yellowStars);
