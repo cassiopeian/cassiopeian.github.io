@@ -362,7 +362,7 @@ STYLE SECTIONS
 /* 5. ALBUMS */
 
 #albums .doodle {
-    background-image: url('../images/patterns/audio.svg');
+    background-image: url('../images/patterns/purple-audio.svg');
 }
 #album-carousel {
     display: block;
