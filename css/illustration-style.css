@@ -363,6 +363,7 @@ STYLE SECTIONS
 
 #albums .doodle {
     background-image: url('../images/patterns/purple-audio.svg');
+    background-size: 155px;
 }
 #album-carousel {
     display: block;
