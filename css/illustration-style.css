@@ -454,7 +454,8 @@ STYLE SECTIONS
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 166, 0, 0.342);
+    background-color: rgba(33, 18, 24, .5);
+    backdrop-filter: blur(2px);
 }
 #modal-box {
     position: relative;
