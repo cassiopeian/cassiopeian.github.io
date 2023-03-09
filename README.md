@@ -53,13 +53,13 @@
 
  <img src="images/read-me/credit-nacht.png" style="width: 75%">
 
- > *Nacht*, Crispijn van de Passe I, 1611&ndash;1637 | [Rijksmuseum](https://www.rijksmuseum.nl/nl/collectie/RP-P-2002-698-4 "Nacht")
+ > *Nacht*, Crispijn van de Passe I, 1611&ndash;1637 | [Rijksmuseum &longrightarrow;](https://www.rijksmuseum.nl/nl/collectie/RP-P-2002-698-4 "Nacht")
 
  ### *The Bathing Pool*
 
  <img src="images/read-me/credit-pool.png" style="width: 75%">
 
- > *The Bathing Pool*, Hubert Robert, 1777&ndash;1780 | [Met Museum](https://www.metmuseum.org/art/collection/search/437473 "The Bathing Pool")
+ > *The Bathing Pool*, Hubert Robert, 1777&ndash;1780 | [Met Museum &longrightarrow;](https://www.metmuseum.org/art/collection/search/437473 "The Bathing Pool")
 
 ## Tech Specs
 
