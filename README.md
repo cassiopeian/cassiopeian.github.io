@@ -17,6 +17,8 @@
 
  ![Homepage screenshot](images/read-me/homepage.png "Homepage screenshot")
 
+ Hello! My name is Cassiopeia Neely, and I am a prospective front-end developer. My portfolio showcases six web apps I’ve developed, along with some of the art I created to illustrate these projects.
+
 ## Projects
 
  <img src="images/read-me/project-cards.png" style="width: 75%" />
