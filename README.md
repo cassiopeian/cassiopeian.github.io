@@ -31,6 +31,11 @@
 
  To learn more about a project's features, favicon, and more, click the *README* link at the bottom of the card. Click the adjacent project name (or even the project title, at the top of the card), to visit the project.
 
+ ### Featured Projects
+
+ + [Karteikarten](https://cassiopeian.github.io/Karteikarten)
+ + [Aisudoku](https://cassiopeian.github.io/aisudoku)
+
 ## Album Art
 
  <img src="images/read-me/albums-screenshot.png" style="width: 75%" />
