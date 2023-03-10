@@ -6,6 +6,7 @@
  + [Projects](#projects)
      - [Project Images](#project-images)
      - [GitHub Links](#github-links)
+     - [Featured Projects](#featured-projects)
  + [Album Art](#album-art)
  + [Favicon](#favicon)
  + [Art Credit](#art-credit)
