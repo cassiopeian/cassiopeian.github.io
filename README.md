@@ -36,6 +36,8 @@
 
  + [Karteikarten](https://cassiopeian.github.io/Karteikarten)
  + [Aisudoku](https://cassiopeian.github.io/aisudoku)
+ + [Case Converter](https://cassiopeian.github.io/case-converter)
+ + [Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)
 
 ## Album Art
 
