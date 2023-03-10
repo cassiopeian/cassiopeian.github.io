@@ -38,6 +38,8 @@
  + [Aisudoku](https://cassiopeian.github.io/aisudoku)
  + [Case Converter](https://cassiopeian.github.io/case-converter)
  + [Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)
+ + [Millennial Memory Game](https://cassiopeian.github.io/memory-game)
+ + [Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball)
 
 ## Album Art
 
