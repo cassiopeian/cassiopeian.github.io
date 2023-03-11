@@ -35,7 +35,7 @@
  ### Featured Projects
 
  + **[Karteikarten](https://cassiopeian.github.io/Karteikarten)** &mdash; Organized into ten levels of increasing difficulty, Karteikarten features more than 300 German to English flashcards, color-coordinated by category.
- + **[Aisudoku](https://cassiopeian.github.io/aisudoku)**
+ + **[Aisudoku](https://cassiopeian.github.io/aisudoku)** &mdash; Aisudoku is a fun, frozen spin on the number puzzle Sudoku. Players must fill each column, row, and 3&nbsp;×&nbsp;3 grid with one of each of the nine given desserts.
  + **[Case Converter](https://cassiopeian.github.io/case-converter)**
  + **[Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)**
  + **[Millennial Memory Game](https://cassiopeian.github.io/memory-game)**
