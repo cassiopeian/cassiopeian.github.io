@@ -36,7 +36,7 @@
 
  + **[Karteikarten](https://cassiopeian.github.io/Karteikarten)** &mdash; Organized into ten levels of increasing difficulty, Karteikarten features more than 300 German to English flashcards, color-coordinated by category.
  + **[Aisudoku](https://cassiopeian.github.io/aisudoku)** &mdash; Aisudoku is a fun, frozen spin on the number puzzle Sudoku. Players must fill each column, row, and 3&nbsp;×&nbsp;3 grid with one of each of the nine given desserts.
- + **[Case Converter](https://cassiopeian.github.io/case-converter)**
+ + **[Case Converter](https://cassiopeian.github.io/case-converter)** &mdash; Do you want to bE a LiTtLe SaRcAsTiC without all the effort? Case Converter can update text to UPPERCASE, lowercase, Title Case, or tOgGlEcAsE, with one click.
  + **[Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)**
  + **[Millennial Memory Game](https://cassiopeian.github.io/memory-game)**
  + **[Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball)**
