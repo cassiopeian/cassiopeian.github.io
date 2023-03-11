@@ -34,7 +34,7 @@
 
  ### Featured Projects
 
- + **[Karteikarten](https://cassiopeian.github.io/Karteikarten)**
+ + **[Karteikarten](https://cassiopeian.github.io/Karteikarten)** &mdash; Organized into ten levels of increasing difficulty, Karteikarten features more than 300 German to English flashcards, color-coordinated by category.
  + **[Aisudoku](https://cassiopeian.github.io/aisudoku)**
  + **[Case Converter](https://cassiopeian.github.io/case-converter)**
  + **[Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)**
