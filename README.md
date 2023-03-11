@@ -39,7 +39,7 @@
  + **[Case Converter](https://cassiopeian.github.io/case-converter)** &mdash; Do you want to bE a LiTtLe SaRcAsTiC without all the effort? Case Converter can update text to UPPERCASE, lowercase, Title Case, or tOgGlEcAsE, with one click.
  + **[Dog-Age Calculator](https://cassiopeian.github.io/dog-age-calculator)** &mdash; Using super-sophisticated canine math, Dog-Age Calculator converts your human age into dog years.
  + **[Millennial Memory Game](https://cassiopeian.github.io/memory-game)** &mdash; Do you have the recall of an elephant, or are you more of a goldfish? Choose among the three game themes, and test your retention skills with Millennial Memory Game.
- + **[Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball)**
+ + **[Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball)** &mdash; Are you destined to be a millionaire? Will this dystopian nightmare ever end? Ask the Magic Eight Ball!
 
 ## Album Art
 
