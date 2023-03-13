@@ -558,6 +558,15 @@ a.spotify-link p {
     }
 }
 
+@media only screen and (max-width: 720px) {
+
+    /* ALBUMS */
+
+    .album {
+        width: 60vw;
+    }
+}
+
 @media only screen and (max-width: 415px) {
 
     /* PATTERNS */
