@@ -591,10 +591,6 @@ a.spotify-link p {
 
     /* ALBUMS */
 
-    .album {
-        width: 100vw;
-        margin-right: 0;
-    }
     #modal {
         padding: 10% 0 0 0;
     }
