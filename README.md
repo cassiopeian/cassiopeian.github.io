@@ -57,6 +57,10 @@
 
  <img src="images/star-favicon.png" style="width: 25%" />
 
+ My namesake, Cassiopeia, is a W-shaped constellation that’s visible year-round in the northern hemisphere, and I knew I wanted my page header to include a depiction of it. The distinct shape would have been lost, in a favicon, though, so I pulled one of the stars I’d drawn and set it in a swirling night sky.
+ 
+ On its own, the favicon star reminds me of Polaris, at the tip of a more famous circumpolar constellation, Ursa Minor. Polaris&mdash;the North Star&mdash;is a dependable, (somewhat) fixed point, and I like to pretend that this star can be used as a guiding light above the browser tab horizon.
+
 ## Art Credit
 
  ### *Nacht*
