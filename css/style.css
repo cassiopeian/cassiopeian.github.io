@@ -143,10 +143,7 @@ header {
 }
 h1 {
     font-size: 1.8rem;
-}
-h1 a {
     color: rgb(245, 245, 245);
-    text-decoration: none;
 }
 #hamburger {
     position: relative;
