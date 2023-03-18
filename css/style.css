@@ -115,6 +115,7 @@ header {
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    padding: 0.5rem 0;
 }
 #constellation,
 #constellation-menu {
