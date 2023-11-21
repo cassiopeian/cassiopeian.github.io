@@ -354,6 +354,9 @@ ul {
     font-size: 1.5rem;
     color: rgb(84, 95, 120);
 }
+#about-icons img {
+    height: 1.5rem;
+}
 #portrait {
     width: 40%;
     padding-left: 3rem;
