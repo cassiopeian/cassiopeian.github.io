@@ -343,6 +343,13 @@ ul {
     opacity: 0;
     top: 30px;
 }
+#about-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid rgb(233, 236, 228);
+    padding: 1.5rem;
+}
 #portrait {
     width: 40%;
     padding-left: 3rem;
