@@ -327,6 +327,10 @@ ul {
 }
 #about .doodle {
     opacity: 0;
+    background-image: url('../images/patterns/about-pattern.svg');
+}
+#about .doodle div {
+    background-color: rgb(255, 250, 240);
 }
 #about-wrapper {
     display: flex;
@@ -338,12 +342,6 @@ ul {
     max-width: 75%;
     opacity: 0;
     top: 30px;
-}
-#about .doodle {
-    background-image: url('../images/patterns/about-pattern.svg');
-}
-#about .doodle div {
-    background-color: rgb(255, 250, 240);
 }
 #portrait {
     width: 40%;
