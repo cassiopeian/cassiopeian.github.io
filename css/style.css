@@ -334,14 +334,17 @@ ul {
 }
 #about-wrapper {
     display: flex;
-    align-content: space-around;
+    align-items: end;
+    justify-content: space-between;
     position: relative;
-    z-index: 2;
     padding: 0 0 4rem 0;
     margin: 4rem auto 0;
-    max-width: 75%;
+    width: 75%;
     opacity: 0;
     top: 30px;
+}
+#about-wrapper > * {
+    width: 45%;
 }
 #about-icons {
     display: flex;
@@ -356,10 +359,6 @@ ul {
 }
 #about-icons img {
     height: 1.5rem;
-}
-#portrait {
-    width: 40%;
-    padding-left: 3rem;
 }
 
 /* 5. PROJECTS */
@@ -586,6 +585,20 @@ footer {
     #projects .doodle div {
         background-image: linear-gradient(185deg, rgb(100, 148, 176) 25%, rgb(106, 148, 183) 60%, rgb(111, 148, 189) 90%);
     }
+
+    /* ABOUT */
+
+    #about-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #about-wrapper > div {
+        width: 100%;
+        padding: 2rem;
+    }
+    #portrait {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 821px) {
@@ -712,16 +725,7 @@ footer {
     /* ABOUT */
 
     #about-wrapper {
-        flex-direction: column-reverse;
-        max-width: unset;
-        padding: 0;
-    }
-    #about-wrapper div {
-        padding: 2rem;
-    }
-    #portrait {
-        width: 70%;
-        padding-left: 0;
-        margin: 0 auto;
+        width: 100%;
+        padding: 0 0 2rem 0;
     }
 }
