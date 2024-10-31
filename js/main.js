@@ -762,3 +762,6 @@ $('#close-modal').on('click', function() {
     $('#modal-box div').children().detach();
     $('#modal-box').children('p').detach();
 });
+
+// set copyright year
+$('#copyright-year').html(new Date().getFullYear());
