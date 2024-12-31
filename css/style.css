@@ -690,6 +690,9 @@ footer {
 
     /* HERO */
 
+    #hero-wrapper {
+        margin: 0 auto 20%;
+    }
     .keys {
         font-size: 1.05rem;
 		height: 2.1rem;
@@ -723,9 +726,6 @@ footer {
     #hero,
     #pattern {
         background-attachment: scroll;
-    }
-    #hero-wrapper {
-        margin: 0 auto 20%;
     }
     .keys {
         font-size: .8rem;
