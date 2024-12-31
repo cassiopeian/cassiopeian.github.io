@@ -696,6 +696,9 @@ footer {
 		width: 2.1rem;
 		margin: .21rem;
     }
+    #hero-tagline {
+        font-size: 1.05rem;
+    }
 }
 
 @media only screen and (max-width: 415px) {
