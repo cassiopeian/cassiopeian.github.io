@@ -686,6 +686,18 @@ footer {
     }
 }
 
+@media only screen and (max-width: 440px) {
+
+    /* HERO */
+
+    .keys {
+        font-size: 1.05rem;
+		height: 2.1rem;
+		width: 2.1rem;
+		margin: .21rem;
+    }
+}
+
 @media only screen and (max-width: 415px) {
 
     /* GLOBAL */
